@@ -14,6 +14,7 @@ import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navDeepLink
 import com.reeloop.app.presentation.common.BarraInferior
 import com.reeloop.app.presentation.screens.PantallaVacia
+import com.reeloop.app.presentation.screens.login.LoginScreen
 import kotlin.io.encoding.Base64
 
 @Composable
@@ -47,8 +48,12 @@ fun AppNavigation(){
             modifier = Modifier.padding(padding)
         ){
             composable(Rutas.LOGIN) {
-                PantallaVacia("Login", listOf("Entrar" to Rutas.INICIO, "Crear cuenta" to Rutas.REGISTRO), irA)
-            }
+                LoginScreen(
+                    onEntrar = {
+                        nav.navigate(Rutas.INICIO) { popUpTo(Rutas.LOGIN) { inclusive = true } }
+                    },
+                    onCrearCuenta = { nav.navigate(Rutas.REGISTRO) }
+                )            }
             composable(Rutas.REGISTRO) {
                 PantallaVacia("Registro", listOf("Registrarme" to Rutas.INICIO), irA)
             }
