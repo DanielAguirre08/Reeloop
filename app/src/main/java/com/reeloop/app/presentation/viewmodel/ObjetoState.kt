@@ -13,5 +13,6 @@ data class ObjetoState(
     val peso: String = "",
     val modalidad: String = Opciones.DONACION,
     val error: String = "",
-    val publicado: Boolean = false
-)
+    val publicado: Boolean = false,
+    val busqueda: String = "",
+    val filtroModalidad: String = "Todo")

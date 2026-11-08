@@ -9,18 +9,23 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHost
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
 import androidx.navigation.navDeepLink
 import com.reeloop.app.presentation.common.BarraInferior
+import com.reeloop.app.presentation.event.ObjetoEvent
 import com.reeloop.app.presentation.screens.PantallaVacia
+import com.reeloop.app.presentation.screens.detalle.DetalleScreen
+import com.reeloop.app.presentation.screens.explorar.ExplorarScreen
 import com.reeloop.app.presentation.screens.login.LoginScreen
 import com.reeloop.app.presentation.screens.misobjetos.MisObjetosScreen
 import com.reeloop.app.presentation.screens.publicar.PublicarScreen
 import com.reeloop.app.presentation.screens.registro.RegistroScreen
-import com.reeloop.app.presentation.viewmodel.ObjetoState
+import com.reeloop.app.presentation.screens.solicitudes.SolicitudesScreen
 import com.reeloop.app.presentation.viewmodel.ObjetoViewModel
 import kotlin.io.encoding.Base64
 
@@ -75,10 +80,22 @@ fun AppNavigation(){
                 PantallaVacia("Inicio", listOf("Mis objetos" to Rutas.MIS_OBJETOS, "Solicitudes" to Rutas.SOLICITUDES), irA)
             }
             composable(Rutas.EXPLORAR) {
-                PantallaVacia("Explorar", listOf("Ver detalle" to Rutas.DETALLE), irA)
-            }
-            composable(Rutas.DETALLE) {
-                PantallaVacia("Detalle", listOf("Ver pasaporte" to Rutas.PASAPORTE), irA)
+                ExplorarScreen(
+                    state = state,
+                    onEvent = vm::onEvent,
+                    onVerDetalle = { id -> nav.navigate(Rutas.detalle(id)) }
+                )            }
+            composable(
+                route = Rutas.DETALLE,
+                arguments = listOf(navArgument("id") { type = NavType.IntType })
+            ) { entrada ->
+                val id = entrada.arguments?.getInt("id") ?: 0
+                DetalleScreen(
+                    objeto = state.listaObjeto.find { it.id == id },
+                    onVolver = { nav.popBackStack() },
+                    onSolicitar = { vm.onEvent(ObjetoEvent.OnSolicitar(id)) },
+                    onPasaporte = { nav.navigate(Rutas.PASAPORTE) }
+                )
             }
             composable(Rutas.PUBLICAR) {
                 PublicarScreen(
@@ -91,8 +108,12 @@ fun AppNavigation(){
                 MisObjetosScreen(
                     state = state,
                     onEvent = vm::onEvent,
-                    onPublicar = { nav.navigate(Rutas.PUBLICAR) }
-                )            }
+                    onPublicar = { nav.navigate(Rutas.PUBLICAR) },
+                    onVerDetalle = { id -> nav.navigate(Rutas.detalle(id)) }
+                )
+
+
+            }
             composable(Rutas.CODIGO_QR) { PantallaVacia("Código QR") }
             composable(Rutas.ESCANEAR_QR) { PantallaVacia("Escanear QR") }
             composable(Rutas.PASAPORTE) { PantallaVacia("Pasaporte") }
@@ -101,8 +122,12 @@ fun AppNavigation(){
                 PantallaVacia("Perfil", listOf("Solicitudes" to Rutas.SOLICITUDES), irA)
             }
             composable(Rutas.SOLICITUDES) {
-                PantallaVacia("Solicitudes", listOf("Ver código QR" to Rutas.CODIGO_QR), irA)
-            }
+                SolicitudesScreen(
+                    state = state,
+                    onEvent = vm::onEvent,
+                    onVolver = { nav.popBackStack() },
+                    onVerQr = { nav.navigate(Rutas.CODIGO_QR) }
+                )            }
 
 
         }
@@ -111,5 +136,3 @@ fun AppNavigation(){
     }
 
 }
-
-

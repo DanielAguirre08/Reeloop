@@ -6,6 +6,7 @@ import androidx.lifecycle.viewModelScope
 import com.reeloop.app.data.AppDatabase
 import com.reeloop.app.data.ObjetoRepositoryImpl
 import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.domain.model.Opciones
 import com.reeloop.app.domain.repository.ObjetoRepository
 import com.reeloop.app.presentation.event.ObjetoEvent
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -16,6 +17,8 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 
+//Simulaciom
+private val solicitantes = listOf("Carlos Mendoza", "Lucía Herrera", "Diego Ramos")
 class ObjetoViewModel(application: Application) : AndroidViewModel(application){
     private val repository: ObjetoRepository =
         ObjetoRepositoryImpl(AppDatabase.getDatabase(application).objetoDao())
@@ -34,6 +37,13 @@ class ObjetoViewModel(application: Application) : AndroidViewModel(application){
             is ObjetoEvent.OnConservacionChange -> _state.update { it.copy(conservacion = event.valor) }
             is ObjetoEvent.OnPesoChange -> _state.update { it.copy(peso = event.valor, error = "") }
             is ObjetoEvent.OnModalidadChange -> _state.update { it.copy(modalidad = event.valor) }
+            is ObjetoEvent.OnBusquedaChange -> _state.update { it.copy(busqueda = event.valor) }
+            is ObjetoEvent.OnFiltroModalidad -> _state.update { it.copy(filtroModalidad = event.valor) }
+            is ObjetoEvent.OnSolicitar -> solicitar(event.id)
+            is ObjetoEvent.OnAceptar -> cambiarEstado(event.id) { it.copy(estado = Opciones.ACEPTADO) }
+            is ObjetoEvent.OnRechazar -> cambiarEstado(event.id) {
+                it.copy(estado = Opciones.DISPONIBLE, solicitante = "", fechaSolicitado = 0L)
+            }
             ObjetoEvent.OnPublicar -> publicar()
             ObjetoEvent.OnPublicadoConsumido -> _state.update { it.copy(publicado = false) }
         }
@@ -54,6 +64,7 @@ class ObjetoViewModel(application: Application) : AndroidViewModel(application){
             return
         }
 
+
         viewModelScope.launch {
             repository.insertar(
                 Objeto(
@@ -66,5 +77,24 @@ class ObjetoViewModel(application: Application) : AndroidViewModel(application){
                 )
             )
             _state.update { ObjetoState().copy(publicado = true, exito = true) }        }
+    }
+    // Busca el objeto, le aplica el cambio y lo guarda
+    private fun cambiarEstado(id: Int, cambio: (Objeto) -> Objeto) {
+        val objeto = state.value.listaObjeto.find { it.id == id } ?: return
+        viewModelScope.launch { repository.actualizar(cambio(objeto)) }
+    }
+    private fun solicitar(id: Int) {
+        val objeto = state.value.listaObjeto.find { it.id == id } ?: return
+        if (objeto.estado != Opciones.DISPONIBLE) return
+
+        viewModelScope.launch {
+            repository.actualizar(
+                objeto.copy(
+                    estado = Opciones.SOLICITADO,
+                    solicitante = solicitantes[id % solicitantes.size],
+                    fechaSolicitado = System.currentTimeMillis()
+                )
+            )
+        }
     }
 }

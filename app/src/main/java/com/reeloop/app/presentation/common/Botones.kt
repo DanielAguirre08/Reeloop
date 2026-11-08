@@ -17,12 +17,24 @@ import androidx.compose.ui.unit.dp
 import com.reeloop.app.ui.theme.VerdePrincipal
 
 @Composable
-fun BotonPrincipal(texto : String, onClick : () -> Unit, modifier:  Modifier = Modifier)
+fun BotonPrincipal(
+    texto : String,
+    onClick : () -> Unit,
+    modifier:  Modifier = Modifier ,
+    habilitado: Boolean = true
+
+)
 {
    Button(
         onClick = onClick,
-        shape = CircleShape,
-        colors = ButtonDefaults.buttonColors(containerColor = VerdePrincipal, Color.White ),
+       enabled = habilitado,
+       shape = CircleShape,
+        colors = ButtonDefaults.buttonColors(
+            containerColor = VerdePrincipal,
+            contentColor = Color.White,
+            disabledContainerColor = VerdePrincipal.copy(alpha = 0.4f),
+            disabledContentColor = Color.White
+        ),
         modifier = modifier.fillMaxWidth().height(56.dp)
 
     ){

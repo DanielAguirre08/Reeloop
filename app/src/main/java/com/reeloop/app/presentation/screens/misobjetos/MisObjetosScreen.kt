@@ -41,13 +41,13 @@ import com.reeloop.app.ui.theme.VerdeOscuro
 fun MisObjetosScreen(
     state: ObjetoState,
     onEvent: (ObjetoEvent) -> Unit,
-    onPublicar: () -> Unit
+    onPublicar: () -> Unit,
+    onVerDetalle: (Int) -> Unit
 ) {
     // Al salir de la pantalla, el banner de éxito se apaga
     DisposableEffect(Unit) {
         onDispose { onEvent(ObjetoEvent.OnExitoVisto) }
     }
-
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
         contentPadding = PaddingValues(16.dp),
@@ -71,7 +71,7 @@ fun MisObjetosScreen(
             item { BotonPrincipal("Publicar objeto", onClick = onPublicar) }
         } else {
             items(state.listaObjeto, key = { it.id }) { objeto ->
-                ObjetoItem(objeto = objeto, mostrarFecha = true)
+                ObjetoItem(objeto = objeto, mostrarFecha = true, onClick = { onVerDetalle(objeto.id) })
             }
         }
 

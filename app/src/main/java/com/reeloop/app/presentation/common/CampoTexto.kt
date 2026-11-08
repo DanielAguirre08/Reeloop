@@ -5,12 +5,14 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material.icons.Icons
+import androidx.compose.material3.Icon
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.OutlinedTextFieldDefaults
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
@@ -27,13 +29,15 @@ fun CampoTexto(
     esPassword: Boolean = false,
     teclado: KeyboardType = KeyboardType.Text ,
     readOnly: Boolean = false,
-    lineas: Int = 1
+    lineas: Int = 1,
+    icono: ImageVector? = null
 ) {
     OutlinedTextField(
         value = valor,
         onValueChange = onCambio,
         label = { Text(etiqueta) },
         readOnly = readOnly,
+        trailingIcon = icono?.let { { Icon(it, contentDescription = null) } },
         singleLine = lineas == 1,
         minLines = lineas,
         shape = RoundedCornerShape(16.dp),

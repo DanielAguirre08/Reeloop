@@ -14,3 +14,5 @@ val Crema = Color(0xFFF9E8BE)            // icons
 val AzulClaro = Color(0xFFDCE9F7)
 val Durazno = Color(0xFFEED9B8)
 val GrisClaro = Color(0xFFEEF1F4)
+
+
