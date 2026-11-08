@@ -8,4 +8,5 @@ sealed class ObjetoEvent {
     data class OnModalidadChange(val valor: String) : ObjetoEvent()
     data object OnPublicar : ObjetoEvent()
     data object OnPublicadoConsumido : ObjetoEvent()
+    data object OnExitoVisto : ObjetoEvent()
 }

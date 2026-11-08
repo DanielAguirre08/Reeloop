@@ -5,7 +5,7 @@ import com.reeloop.app.domain.model.Opciones
 
 data class ObjetoState(
     val listaObjeto: List<Objeto> = emptyList(),
-
+    val exito: Boolean = false,
     val nombre : String ="",
     val descripcion: String = "",
     val categoria: String = Opciones.categorias.first(),

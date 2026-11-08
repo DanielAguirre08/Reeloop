@@ -17,8 +17,10 @@ import androidx.navigation.navDeepLink
 import com.reeloop.app.presentation.common.BarraInferior
 import com.reeloop.app.presentation.screens.PantallaVacia
 import com.reeloop.app.presentation.screens.login.LoginScreen
+import com.reeloop.app.presentation.screens.misobjetos.MisObjetosScreen
 import com.reeloop.app.presentation.screens.publicar.PublicarScreen
 import com.reeloop.app.presentation.screens.registro.RegistroScreen
+import com.reeloop.app.presentation.viewmodel.ObjetoState
 import com.reeloop.app.presentation.viewmodel.ObjetoViewModel
 import kotlin.io.encoding.Base64
 
@@ -86,8 +88,11 @@ fun AppNavigation(){
                 )
             }
             composable(Rutas.MIS_OBJETOS) {
-                PantallaVacia("Mis objetos", listOf("Código QR" to Rutas.CODIGO_QR, "Escanear QR" to Rutas.ESCANEAR_QR), irA)
-            }
+                MisObjetosScreen(
+                    state = state,
+                    onEvent = vm::onEvent,
+                    onPublicar = { nav.navigate(Rutas.PUBLICAR) }
+                )            }
             composable(Rutas.CODIGO_QR) { PantallaVacia("Código QR") }
             composable(Rutas.ESCANEAR_QR) { PantallaVacia("Escanear QR") }
             composable(Rutas.PASAPORTE) { PantallaVacia("Pasaporte") }
@@ -106,3 +111,5 @@ fun AppNavigation(){
     }
 
 }
+
+
