@@ -15,6 +15,7 @@ import androidx.navigation.navDeepLink
 import com.reeloop.app.presentation.common.BarraInferior
 import com.reeloop.app.presentation.screens.PantallaVacia
 import com.reeloop.app.presentation.screens.login.LoginScreen
+import com.reeloop.app.presentation.screens.registro.RegistroScreen
 import kotlin.io.encoding.Base64
 
 @Composable
@@ -55,7 +56,12 @@ fun AppNavigation(){
                     onCrearCuenta = { nav.navigate(Rutas.REGISTRO) }
                 )            }
             composable(Rutas.REGISTRO) {
-                PantallaVacia("Registro", listOf("Registrarme" to Rutas.INICIO), irA)
+                RegistroScreen(
+                    onRegistrarme = {
+                        nav.navigate(Rutas.INICIO){popUpTo(Rutas.LOGIN){inclusive =true} }},
+                    onYatengoCuenta = {nav.popBackStack()}
+                )
+
             }
             composable(Rutas.INICIO) {
                 PantallaVacia("Inicio", listOf("Mis objetos" to Rutas.MIS_OBJETOS, "Solicitudes" to Rutas.SOLICITUDES), irA)
