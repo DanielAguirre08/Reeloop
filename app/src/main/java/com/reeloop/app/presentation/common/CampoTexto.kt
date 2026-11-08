@@ -25,13 +25,17 @@ fun CampoTexto(
     etiqueta: String,
     modifier: Modifier = Modifier,
     esPassword: Boolean = false,
-    teclado: KeyboardType = KeyboardType.Text
+    teclado: KeyboardType = KeyboardType.Text ,
+    readOnly: Boolean = false,
+    lineas: Int = 1
 ) {
     OutlinedTextField(
         value = valor,
         onValueChange = onCambio,
         label = { Text(etiqueta) },
-        singleLine = true,
+        readOnly = readOnly,
+        singleLine = lineas == 1,
+        minLines = lineas,
         shape = RoundedCornerShape(16.dp),
         visualTransformation = if (esPassword) PasswordVisualTransformation() else VisualTransformation.None,
         keyboardOptions = KeyboardOptions(keyboardType = if (esPassword) KeyboardType.Password else teclado),

@@ -3,9 +3,11 @@ package com.reeloop.app.navigation
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHost
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -15,13 +17,17 @@ import androidx.navigation.navDeepLink
 import com.reeloop.app.presentation.common.BarraInferior
 import com.reeloop.app.presentation.screens.PantallaVacia
 import com.reeloop.app.presentation.screens.login.LoginScreen
+import com.reeloop.app.presentation.screens.publicar.PublicarScreen
 import com.reeloop.app.presentation.screens.registro.RegistroScreen
+import com.reeloop.app.presentation.viewmodel.ObjetoViewModel
 import kotlin.io.encoding.Base64
 
 @Composable
 fun AppNavigation(){
 
     val nav= rememberNavController()
+    val vm: ObjetoViewModel = viewModel()
+    val state by vm.state.collectAsState()
     val entrada by nav.currentBackStackEntryAsState()
     val ruta = entrada?.destination?.route
 
@@ -73,7 +79,11 @@ fun AppNavigation(){
                 PantallaVacia("Detalle", listOf("Ver pasaporte" to Rutas.PASAPORTE), irA)
             }
             composable(Rutas.PUBLICAR) {
-                PantallaVacia("Publicar", listOf("Publicar objeto" to Rutas.MIS_OBJETOS), irA)
+                PublicarScreen(
+                    state = state,
+                    onEvent = vm::onEvent,
+                    onPublicado = { nav.navigate(Rutas.MIS_OBJETOS) }
+                )
             }
             composable(Rutas.MIS_OBJETOS) {
                 PantallaVacia("Mis objetos", listOf("Código QR" to Rutas.CODIGO_QR, "Escanear QR" to Rutas.ESCANEAR_QR), irA)
