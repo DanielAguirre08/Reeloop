@@ -44,6 +44,7 @@ class ObjetoViewModel(application: Application) : AndroidViewModel(application){
             is ObjetoEvent.OnRechazar -> cambiarEstado(event.id) {
                 it.copy(estado = Opciones.DISPONIBLE, solicitante = "", fechaSolicitado = 0L)
             }
+            is ObjetoEvent.OnEntregar -> cambiarEstado(event.id) { it.copy(estado = Opciones.ENTREGADO) }
             ObjetoEvent.OnPublicar -> publicar()
             ObjetoEvent.OnPublicadoConsumido -> _state.update { it.copy(publicado = false) }
         }

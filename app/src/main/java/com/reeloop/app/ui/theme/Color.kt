@@ -15,4 +15,7 @@ val AzulClaro = Color(0xFFDCE9F7)
 val Durazno = Color(0xFFEED9B8)
 val GrisClaro = Color(0xFFEEF1F4)
 
+val FondoCamara = Color(0xFF111B16)
+val VerdeMenta = Color(0xFF7BD9A0)
+
 

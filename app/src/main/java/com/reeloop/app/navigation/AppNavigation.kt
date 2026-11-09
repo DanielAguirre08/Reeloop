@@ -24,6 +24,8 @@ import com.reeloop.app.presentation.screens.explorar.ExplorarScreen
 import com.reeloop.app.presentation.screens.login.LoginScreen
 import com.reeloop.app.presentation.screens.misobjetos.MisObjetosScreen
 import com.reeloop.app.presentation.screens.publicar.PublicarScreen
+import com.reeloop.app.presentation.screens.qr.CodigoQrScreen
+import com.reeloop.app.presentation.screens.qr.EscanearQrScreen
 import com.reeloop.app.presentation.screens.registro.RegistroScreen
 import com.reeloop.app.presentation.screens.solicitudes.SolicitudesScreen
 import com.reeloop.app.presentation.viewmodel.ObjetoViewModel
@@ -114,8 +116,32 @@ fun AppNavigation(){
 
 
             }
-            composable(Rutas.CODIGO_QR) { PantallaVacia("Código QR") }
-            composable(Rutas.ESCANEAR_QR) { PantallaVacia("Escanear QR") }
+            composable(
+                route = Rutas.CODIGO_QR,
+                arguments = listOf(navArgument("id") { type = NavType.IntType })
+            ) { entrada ->
+                val id = entrada.arguments?.getInt("id") ?: 0
+                CodigoQrScreen(
+                    objeto = state.listaObjeto.find { it.id == id },
+                    onVolver = { nav.popBackStack() },
+                    onEscanear = { nav.navigate(Rutas.escanearQr(id)) }
+                )
+            }
+            composable(
+                route = Rutas.ESCANEAR_QR,
+                arguments = listOf(navArgument("id") { type = NavType.IntType })
+            ) { entrada ->
+                val id = entrada.arguments?.getInt("id") ?: 0
+                EscanearQrScreen(
+                    onVolver = { nav.popBackStack() },
+                    onConfirmar = {
+                        vm.onEvent(ObjetoEvent.OnEntregar(id))
+                        nav.navigate(Rutas.PASAPORTE) {
+                            popUpTo(Rutas.ESCANEAR_QR) { inclusive = true }
+                        }
+                    }
+                )
+            }
             composable(Rutas.PASAPORTE) { PantallaVacia("Pasaporte") }
             composable(Rutas.IMPACTO) { PantallaVacia("EcoImpacto") }
             composable(Rutas.PERFIL) {
@@ -126,8 +152,7 @@ fun AppNavigation(){
                     state = state,
                     onEvent = vm::onEvent,
                     onVolver = { nav.popBackStack() },
-                    onVerQr = { nav.navigate(Rutas.CODIGO_QR) }
-                )            }
+                    onVerQr = { id -> nav.navigate(Rutas.codigoQr(id)) }                )            }
 
 
         }

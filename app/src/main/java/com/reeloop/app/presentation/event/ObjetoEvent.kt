@@ -14,4 +14,5 @@ sealed class ObjetoEvent {
     data class OnSolicitar(val id: Int) : ObjetoEvent()
     data class OnAceptar(val id: Int) : ObjetoEvent()
     data class OnRechazar(val id: Int) : ObjetoEvent()
+    data class OnEntregar(val id: Int) : ObjetoEvent()
 }

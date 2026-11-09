@@ -37,6 +37,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.zxing.core)
     implementation(libs.androidx.compose.foundation)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(platform(libs.androidx.compose.bom))

@@ -14,8 +14,10 @@ object Rutas {
     fun detalle(id: Int) = "detalle/$id"
     const val MIS_OBJETOS = "mis_objetos"
     const val SOLICITUDES = "solicitudes"
-    const val CODIGO_QR = "codigo_qr"
-    const val ESCANEAR_QR = "escanear_qr"
+    const val CODIGO_QR = "codigo_qr/{id}"
+    const val ESCANEAR_QR = "escanear_qr/{id}"
+    fun codigoQr(id: Int) = "codigo_qr/$id"
+    fun escanearQr(id: Int) = "escanear_qr/$id"
     const val PASAPORTE = "pasaporte"
 
     //son las pantallas donde la no se muestra la barra de navigacion
