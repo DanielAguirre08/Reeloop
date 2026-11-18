@@ -1,11 +1,9 @@
 package com.reeloop.app.domain.model
 
-import androidx.room.Entity
-import androidx.room.PrimaryKey
-
-@Entity(tableName = "objetos")
+// Modelo de dominio: Kotlin puro, sin anotaciones de Room ni de Gson.
+// Las fechas son milisegundos (epoch). 0 significa "todavía no ocurrió".
 data class Objeto(
-    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    val id: String = "",
     val nombre: String,
     val descripcion: String,
     val categoria: String,
@@ -13,8 +11,12 @@ data class Objeto(
     val peso: Double,
     val modalidad: String,
     val estado: String = Opciones.DISPONIBLE,
-    val solicitante: String = "",
-    val fechaPublicado: Long = System.currentTimeMillis(),
+    val propietarioId: String = "",
+    val propietarioNombre: String = "",
+    val solicitanteId: String = "",
+    val solicitanteNombre: String = "",
+    val codigoEntrega: String = "",     // solo llega con valor al propietario
+    val fechaPublicado: Long = 0L,
     val fechaSolicitado: Long = 0L,
     val fechaEntregado: Long = 0L
 )
