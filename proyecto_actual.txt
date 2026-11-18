@@ -1,0 +1,2958 @@
+==> app/src/main/res/drawable/ic_launcher_foreground.xml <==
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path android:pathData="M31,63.928c0,0 6.4,-11 12.1,-13.1c7.2,-2.6 26,-1.4 26,-1.4l38.1,38.1L107,108.928l-32,-1L31,63.928z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="85.84757"
+                android:endY="92.4963"
+                android:startX="42.9492"
+                android:startY="49.59793"
+                android:type="linear">
+                <item
+                    android:color="#44000000"
+                    android:offset="0.0" />
+                <item
+                    android:color="#00000000"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="nonZero"
+        android:pathData="M65.3,45.828l3.8,-6.6c0.2,-0.4 0.1,-0.9 -0.3,-1.1c-0.4,-0.2 -0.9,-0.1 -1.1,0.3l-3.9,6.7c-6.3,-2.8 -13.4,-2.8 -19.7,0l-3.9,-6.7c-0.2,-0.4 -0.7,-0.5 -1.1,-0.3C38.8,38.328 38.7,38.828 38.9,39.228l3.8,6.6C36.2,49.428 31.7,56.028 31,63.928h46C76.3,56.028 71.8,49.428 65.3,45.828zM43.4,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2c-0.3,-0.7 -0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C45.3,56.528 44.5,57.328 43.4,57.328L43.4,57.328zM64.6,57.328c-0.8,0 -1.5,-0.5 -1.8,-1.2s-0.1,-1.5 0.4,-2.1c0.5,-0.5 1.4,-0.7 2.1,-0.4c0.7,0.3 1.2,1 1.2,1.8C66.5,56.528 65.6,57.328 64.6,57.328L64.6,57.328z"
+        android:strokeWidth="1"
+        android:strokeColor="#00000000" />
+</vector>
+==> app/src/main/res/drawable/ic_launcher_background.xml <==
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#3DDC84"
+        android:pathData="M0,0h108v108h-108z" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M9,0L9,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,0L19,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M29,0L29,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M39,0L39,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M49,0L49,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59,0L59,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M69,0L69,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M79,0L79,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M89,0L89,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M99,0L99,108"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,9L108,9"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,19L108,19"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,29L108,29"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,39L108,39"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,49L108,49"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,59L108,59"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,69L108,69"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,79L108,79"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,89L108,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M0,99L108,99"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,29L89,29"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,39L89,39"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,49L89,49"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,59L89,59"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,69L89,69"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M19,79L89,79"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M29,19L29,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M39,19L39,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M49,19L49,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M59,19L59,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M69,19L69,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M79,19L79,89"
+        android:strokeWidth="0.8"
+        android:strokeColor="#33FFFFFF" />
+</vector>
+
+==> app/src/main/res/values/colors.xml <==
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
+==> app/src/main/res/values/themes.xml <==
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Reeloop" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
+==> app/src/main/res/values/strings.xml <==
+<resources>
+    <string name="app_name">Reeloop</string>
+</resources>
+==> app/src/main/res/xml/backup_rules.xml <==
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="root" path="." />
+    <exclude domain="file" path="." />
+    <exclude domain="database" path="." />
+    <exclude domain="sharedpref" path="." />
+    <exclude domain="external" path="." />
+</full-backup-content>
+
+==> app/src/main/res/xml/data_extraction_rules.xml <==
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="root" path="." />
+        <exclude domain="file" path="." />
+        <exclude domain="database" path="." />
+        <exclude domain="sharedpref" path="." />
+        <exclude domain="external" path="." />
+        <exclude domain="device_root" path="." />
+        <exclude domain="device_file" path="." />
+        <exclude domain="device_database" path="." />
+        <exclude domain="device_sharedpref" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="root" path="." />
+        <exclude domain="file" path="." />
+        <exclude domain="database" path="." />
+        <exclude domain="sharedpref" path="." />
+        <exclude domain="external" path="." />
+        <exclude domain="device_root" path="." />
+        <exclude domain="device_file" path="." />
+        <exclude domain="device_database" path="." />
+        <exclude domain="device_sharedpref" path="." />
+    </device-transfer>
+</data-extraction-rules>
+
+==> app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml <==
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
+==> app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml <==
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+    <monochrome android:drawable="@drawable/ic_launcher_foreground" />
+</adaptive-icon>
+==> app/src/main/AndroidManifest.xml <==
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Reeloop">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Reeloop"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+
+==> app/src/main/java/com/reeloop/app/ui/theme/Color.kt <==
+package com.reeloop.app.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val VerdePrincipal = Color(0xFF3E8A5F)   // color de botones e items
+val VerdeOscuro = Color(0xFF2D6A43)      //tarjetas
+val VerdeClaro = Color(0xFFDFF0E5)       // fondo suaves
+val Fondo = Color(0xFFF6F8F5)            // fondo de pantalla
+val TextoOscuro = Color(0xFF141B2D)      // titulos
+val TextoGris = Color(0xFF6B7587)        // subtitulos
+val Borde = Color(0xFFE3E8E4)            // bordes de cards
+val Rojo = Color(0xFFD64545)             // botones de cerrar sesion
+val Crema = Color(0xFFF9E8BE)            // icons
+val AzulClaro = Color(0xFFDCE9F7)
+val Durazno = Color(0xFFEED9B8)
+val GrisClaro = Color(0xFFEEF1F4)
+
+
+
+==> app/src/main/java/com/reeloop/app/ui/theme/Theme.kt <==
+package com.reeloop.app.ui.theme
+
+import android.app.Activity
+import android.os.Build
+import androidx.compose.foundation.isSystemInDarkTheme
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.darkColorScheme
+import androidx.compose.material3.dynamicDarkColorScheme
+import androidx.compose.material3.dynamicLightColorScheme
+import androidx.compose.material3.lightColorScheme
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
+
+private val EsquemaClaro = lightColorScheme(
+    primary = VerdePrincipal,
+    onPrimary = Color.White,
+    primaryContainer = VerdeClaro,
+    onPrimaryContainer = VerdeOscuro,
+    secondary = VerdeOscuro,
+    background = Fondo,
+    onBackground = TextoOscuro,
+    surface = Color.White,
+    onSurface = TextoOscuro,
+    onSurfaceVariant = TextoGris,
+    outline = Borde,
+    error = Rojo
+)
+
+@Composable
+fun ReeloopTheme(content: @Composable () -> Unit) {
+    MaterialTheme(
+        colorScheme = EsquemaClaro,
+        typography = Typography,
+        content = content
+    )
+}
+==> app/src/main/java/com/reeloop/app/ui/theme/Type.kt <==
+package com.reeloop.app.ui.theme
+
+import androidx.compose.material3.Typography
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+
+// Set of Material typography styles to start with
+val Typography = Typography(
+    bodyLarge = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 16.sp,
+        lineHeight = 24.sp,
+        letterSpacing = 0.5.sp
+    )
+    /* Other default text styles to override
+    titleLarge = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Normal,
+        fontSize = 22.sp,
+        lineHeight = 28.sp,
+        letterSpacing = 0.sp
+    ),
+    labelSmall = TextStyle(
+        fontFamily = FontFamily.Default,
+        fontWeight = FontWeight.Medium,
+        fontSize = 11.sp,
+        lineHeight = 16.sp,
+        letterSpacing = 0.5.sp
+    )
+    */
+)
+==> app/src/main/java/com/reeloop/app/MainActivity.kt <==
+package com.reeloop.app
+
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import com.reeloop.app.navigation.AppNavigation
+import com.reeloop.app.ui.theme.ReeloopTheme
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            ReeloopTheme {
+                AppNavigation()
+            }
+        }
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/util/Fechas.kt <==
+package com.reeloop.app.util
+
+object Fechas {
+
+
+    fun haceCuanto(tiempo: Long): String{
+        val minutos =(System.currentTimeMillis()-tiempo)/60_000
+        return when{
+            minutos <1-> "hace un momento"
+            minutos < 60 -> "hace $minutos min"
+            minutos < 1440 -> "hace ${minutos / 60} h"
+            else -> "hace ${minutos / 1440} días"
+        }
+
+    }
+}
+==> app/src/main/java/com/reeloop/app/navigation/AppNavigation.kt <==
+package com.reeloop.app.navigation
+
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Scaffold
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
+import androidx.compose.runtime.getValue
+import androidx.compose.ui.Modifier
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavType
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
+import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
+import com.reeloop.app.presentation.common.BarraInferior
+import com.reeloop.app.presentation.event.ObjetoEvent
+import com.reeloop.app.presentation.screens.DetalleScreen
+import com.reeloop.app.presentation.screens.ExplorarScreen
+import com.reeloop.app.presentation.screens.ImpactoScreen
+import com.reeloop.app.presentation.screens.InicioScreen
+import com.reeloop.app.presentation.screens.LoginScreen
+import com.reeloop.app.presentation.screens.MisObjetosScreen
+import com.reeloop.app.presentation.screens.PasaporteScreen
+import com.reeloop.app.presentation.screens.PerfilScreen
+import com.reeloop.app.presentation.screens.PublicarScreen
+import com.reeloop.app.presentation.screens.CodigoQrScreen
+import com.reeloop.app.presentation.screens.EscanearQrScreen
+import com.reeloop.app.presentation.screens.RegistroScreen
+import com.reeloop.app.presentation.screens.SolicitudesScreen
+import com.reeloop.app.presentation.viewmodel.ObjetoViewModel
+import com.reeloop.app.ui.theme.Fondo
+
+@Composable
+fun AppNavigation() {
+    val nav = rememberNavController()
+    val vm: ObjetoViewModel = viewModel()
+    val state by vm.state.collectAsState()
+    val entrada by nav.currentBackStackEntryAsState()
+    val ruta = entrada?.destination?.route
+
+    val irAPestana: (String) -> Unit = { destino ->
+        nav.navigate(destino) {
+            popUpTo(Rutas.INICIO) { saveState = true }
+            launchSingleTop = true
+            restoreState = true
+        }
+    }
+
+    Scaffold(
+        containerColor = Fondo,
+        bottomBar = {
+            if (ruta != null && ruta !in Rutas.sinBarra) {
+                BarraInferior(seleccionada = Rutas.pestanaDe(ruta), onClick = irAPestana)
+            }
+        }
+    ) { padding ->
+        NavHost(
+            navController = nav,
+            startDestination = Rutas.LOGIN,
+            modifier = Modifier.padding(padding)
+        ) {
+            composable(Rutas.LOGIN) {
+                LoginScreen(
+                    onEntrar = {
+                        nav.navigate(Rutas.INICIO) {
+                            popUpTo(Rutas.LOGIN) { inclusive = true }
+                        }
+                    },
+                    onCrearCuenta = { nav.navigate(Rutas.REGISTRO) }
+                )
+            }
+            composable(Rutas.REGISTRO) {
+                RegistroScreen(
+                    onRegistrarme = {
+                        nav.navigate(Rutas.INICIO) {
+                            popUpTo(Rutas.LOGIN) { inclusive = true }
+                        }
+                    },
+                    onYatengoCuenta = { nav.popBackStack() }
+                )
+            }
+            composable(Rutas.INICIO) {
+                InicioScreen(
+                    state = state,
+                    onPublicar = { nav.navigate(Rutas.PUBLICAR) },
+                    onExplorar = { nav.navigate(Rutas.EXPLORAR) },
+                    onMisObjetos = { nav.navigate(Rutas.MIS_OBJETOS) },
+                    onSolicitudes = { nav.navigate(Rutas.SOLICITUDES) },
+                    onEscanear = { nav.navigate(Rutas.ESCANEAR_QR) }
+                )
+            }
+            composable(Rutas.EXPLORAR) {
+                ExplorarScreen(
+                    state = state,
+                    onEvent = vm::onEvent,
+                    onVerDetalle = { id -> nav.navigate(Rutas.detalle(id)) }
+                )
+            }
+            composable(
+                route = Rutas.DETALLE,
+                arguments = listOf(navArgument("id") { type = NavType.IntType })
+            ) { backStack ->
+                val id = backStack.arguments?.getInt("id") ?: 0
+                DetalleScreen(
+                    objeto = state.listaObjeto.find { it.id == id },
+                    onVolver = { nav.popBackStack() },
+                    onSolicitar = { vm.onEvent(ObjetoEvent.OnSolicitar(id)) },
+                    onPasaporte = { nav.navigate(Rutas.pasaporte(id)) }
+                )
+            }
+            composable(Rutas.PUBLICAR) {
+                PublicarScreen(
+                    state = state,
+                    onEvent = vm::onEvent,
+                    onPublicado = { 
+                        nav.navigate(Rutas.MIS_OBJETOS) {
+                            popUpTo(Rutas.INICIO)
+                        } 
+                    }
+                )
+            }
+            composable(Rutas.MIS_OBJETOS) {
+                MisObjetosScreen(
+                    state = state,
+                    onEvent = vm::onEvent,
+                    onPublicar = { nav.navigate(Rutas.PUBLICAR) },
+                    onVerDetalle = { id -> nav.navigate(Rutas.detalle(id)) }
+                )
+            }
+            composable(
+                route = Rutas.CODIGO_QR,
+                arguments = listOf(navArgument("id") { type = NavType.IntType })
+            ) { backStack ->
+                val id = backStack.arguments?.getInt("id") ?: 0
+                CodigoQrScreen(
+                    objeto = state.listaObjeto.find { it.id == id },
+                    onVolver = { nav.popBackStack() }
+                )
+            }
+            composable(Rutas.ESCANEAR_QR) {
+                EscanearQrScreen(onVolver = { nav.popBackStack() })
+            }
+            composable(
+                route = Rutas.PASAPORTE,
+                arguments = listOf(navArgument("id") { type = NavType.IntType })
+            ) { backStack ->
+                val id = backStack.arguments?.getInt("id") ?: 0
+                PasaporteScreen(
+                    objeto = state.listaObjeto.find { it.id == id },
+                    onVolver = { nav.popBackStack() }
+                )
+            }
+            composable(Rutas.IMPACTO) {
+                ImpactoScreen(state = state)
+            }
+            composable(Rutas.PERFIL) {
+                PerfilScreen(
+                    state = state,
+                    onMisObjetos = { nav.navigate(Rutas.MIS_OBJETOS) },
+                    onSolicitudes = { nav.navigate(Rutas.SOLICITUDES) },
+                    onCerrarSesion = {
+                        nav.navigate(Rutas.LOGIN) {
+                            popUpTo(Rutas.INICIO) { inclusive = true }
+                            launchSingleTop = true
+                        }
+                    }
+                )
+            }
+            composable(Rutas.SOLICITUDES) {
+                SolicitudesScreen(
+                    state = state,
+                    onEvent = vm::onEvent,
+                    onVolver = { nav.popBackStack() },
+                    onVerQr = { id -> nav.navigate(Rutas.codigoQr(id)) }
+                )
+            }
+        }
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/navigation/Rutas.kt <==
+package com.reeloop.app.navigation
+
+//cada valor es una ruta de la app l, que redirigue a una pantalla
+
+object Rutas {
+    const val LOGIN= "login"
+    const val REGISTRO ="registro"
+    const val INICIO = "inicio"
+    const val EXPLORAR = "explorar"
+    const val PUBLICAR = "publicar"
+    const val IMPACTO = "impacto"
+    const val PERFIL = "perfil"
+    const val DETALLE = "detalle/{id}"
+    fun detalle(id: Int) = "detalle/$id"
+    const val MIS_OBJETOS = "mis_objetos"
+    const val SOLICITUDES = "solicitudes"
+    const val CODIGO_QR = "codigo_qr/{id}"
+    fun codigoQr(id: Int) = "codigo_qr/$id"
+    const val ESCANEAR_QR = "escanear_qr"
+    const val PASAPORTE = "pasaporte/{id}"
+    fun pasaporte(id: Int) = "pasaporte/$id"
+
+    //son las pantallas donde la no se muestra la barra de navigacion
+    val sinBarra = listOf(LOGIN, REGISTRO, CODIGO_QR, ESCANEAR_QR)
+
+    // las pantallas que son secundarias , iluminan el siguiente intem de barra
+    fun pestanaDe(ruta: String?): String? = when(ruta){
+        DETALLE -> EXPLORAR
+        MIS_OBJETOS -> PUBLICAR
+        PASAPORTE -> IMPACTO
+        SOLICITUDES ->PERFIL
+        else -> ruta
+
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/data/ObjetoRepositoryImpl.kt <==
+package com.reeloop.app.data
+
+import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.domain.repository.ObjetoDao
+import com.reeloop.app.domain.repository.ObjetoRepository
+import kotlinx.coroutines.flow.Flow
+
+class ObjetoRepositoryImpl(private val dao: ObjetoDao) : ObjetoRepository {
+    override fun getObjetos(): Flow<List<Objeto>> = dao.getObjetos()
+    override suspend fun contar(): Int = dao.count()
+    override suspend fun insertar(objeto: Objeto): Long = dao.insert(objeto)
+    override suspend fun actualizar(objeto: Objeto) = dao.update(objeto)
+    override suspend fun eliminar(objeto: Objeto) = dao.delete(objeto)
+}
+
+==> app/src/main/java/com/reeloop/app/data/AppData.kt <==
+package com.reeloop.app.data
+import android.content.Context
+import androidx.room.Database
+import androidx.room.Room
+import androidx.room.RoomDatabase
+import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.domain.repository.ObjetoDao
+
+@Database(entities = [Objeto::class], version = 1, exportSchema = false)
+abstract class AppDatabase : RoomDatabase() {
+
+    abstract fun objetoDao(): ObjetoDao
+
+    companion object {
+        @Volatile
+        private var INSTANCE: AppDatabase? = null
+
+        fun getDatabase(context: Context): AppDatabase {
+            return INSTANCE ?: synchronized(this) {
+                Room.databaseBuilder(
+                    context.applicationContext,
+                    AppDatabase::class.java,
+                    "reloop_db"
+                ).build().also { INSTANCE = it }
+            }
+        }
+    }
+}
+==> app/src/main/java/com/reeloop/app/domain/repository/ObjetoDao.kt <==
+package com.reeloop.app.domain.repository
+
+import androidx.room.Dao
+import androidx.room.Delete
+import androidx.room.Insert
+import androidx.room.Query
+import androidx.room.Update
+import com.reeloop.app.domain.model.Objeto
+import kotlinx.coroutines.flow.Flow
+
+@Dao
+interface ObjetoDao {
+    @Query("SELECT * FROM objetos ORDER BY fechaPublicado DESC")
+    fun getObjetos(): Flow<List<Objeto>>
+
+    @Query("SELECT COUNT(*) FROM objetos")
+    suspend fun count(): Int
+
+    @Insert
+    suspend fun insert(objeto: Objeto): Long
+
+    @Update
+    suspend fun update(objeto: Objeto)
+
+    @Delete
+    suspend fun delete(objeto: Objeto)
+}
+
+==> app/src/main/java/com/reeloop/app/domain/repository/ObjetoRepository.kt <==
+package com.reeloop.app.domain.repository
+import com.reeloop.app.domain.model.Objeto
+import kotlinx.coroutines.flow.Flow
+interface ObjetoRepository {
+    fun getObjetos(): Flow<List<Objeto>>
+    suspend fun contar(): Int
+    suspend fun insertar(objeto: Objeto): Long
+    suspend fun actualizar(objeto: Objeto)
+    suspend fun eliminar(objeto: Objeto)
+}
+
+==> app/src/main/java/com/reeloop/app/domain/model/Opciones.kt <==
+package com.reeloop.app.domain.model
+
+object Opciones {
+    const val DISPONIBLE = "Disponible"
+    const val SOLICITADO = "Solicitado"
+    const val ACEPTADO = "Aceptado"
+    const val ENTREGADO = "Entregado"
+
+    const val DONACION = "Donación"
+    const val PRESTAMO = "Préstamo"
+    const val INTERCAMBIO = "Intercambio"
+
+    val modalidades = listOf(DONACION, PRESTAMO, INTERCAMBIO)
+    val categorias = listOf("Académico", "Libros", "Accesorios", "Hogar", "Tecnología", "Ropa", "Otros")
+    val conservaciones = listOf("Como nuevo", "Buen estado", "Usado")
+}
+==> app/src/main/java/com/reeloop/app/domain/model/Objeto.kt <==
+package com.reeloop.app.domain.model
+
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+@Entity(tableName = "objetos")
+data class Objeto(
+    @PrimaryKey(autoGenerate = true) val id: Int = 0,
+    val nombre: String,
+    val descripcion: String,
+    val categoria: String,
+    val conservacion: String,
+    val peso: Double,
+    val modalidad: String,
+    val estado: String = Opciones.DISPONIBLE,
+    val solicitante: String = "",
+    val fechaPublicado: Long = System.currentTimeMillis(),
+    val fechaSolicitado: Long = 0L,
+    val fechaEntregado: Long = 0L
+)
+==> app/src/main/java/com/reeloop/app/presentation/viewmodel/ObjetoState.kt <==
+package com.reeloop.app.presentation.viewmodel
+
+import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.domain.model.Opciones
+
+data class ObjetoState(
+    val listaObjeto: List<Objeto> = emptyList(),
+    val exito: Boolean = false,
+    val nombre : String ="",
+    val descripcion: String = "",
+    val categoria: String = Opciones.categorias.first(),
+    val conservacion: String = Opciones.conservaciones[1],
+    val peso: String = "",
+    val modalidad: String = Opciones.DONACION,
+    val error: String = "",
+    val publicado: Boolean = false,
+    val busqueda: String = "",
+    val filtroModalidad: String = "Todos")
+
+==> app/src/main/java/com/reeloop/app/presentation/viewmodel/ObjetoViewModel.kt <==
+package com.reeloop.app.presentation.viewmodel
+
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
+import com.reeloop.app.data.AppDatabase
+import com.reeloop.app.data.ObjetoRepositoryImpl
+import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.domain.model.Opciones
+import com.reeloop.app.domain.repository.ObjetoRepository
+import com.reeloop.app.presentation.event.ObjetoEvent
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.combine
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
+
+//Simulaciom
+private val solicitantes = listOf("Carlos Mendoza", "Lucía Herrera", "Diego Ramos")
+class ObjetoViewModel(application: Application) : AndroidViewModel(application){
+    private val repository: ObjetoRepository =
+        ObjetoRepositoryImpl(AppDatabase.getDatabase(application).objetoDao())
+    private val _state = MutableStateFlow(ObjetoState())
+
+    val state: StateFlow<ObjetoState> = combine(_state, repository.getObjetos()) { estado, lista ->
+        estado.copy(listaObjeto = lista)
+    }.stateIn(viewModelScope, SharingStarted.WhileSubscribed(5000), ObjetoState())
+
+    init {
+        cargarDatosDeMuestra()
+    }
+
+    fun onEvent(event: ObjetoEvent) {
+        when (event) {
+            is ObjetoEvent.OnExitoVisto -> _state.update { it.copy(exito = false) }
+            is ObjetoEvent.OnNombreChange -> _state.update { it.copy(nombre = event.valor, error = "") }
+            is ObjetoEvent.OnDescripcionChange -> _state.update { it.copy(descripcion = event.valor, error = "") }
+            is ObjetoEvent.OnCategoriaChange -> _state.update { it.copy(categoria = event.valor) }
+            is ObjetoEvent.OnConservacionChange -> _state.update { it.copy(conservacion = event.valor) }
+            is ObjetoEvent.OnPesoChange -> _state.update { it.copy(peso = event.valor, error = "") }
+            is ObjetoEvent.OnModalidadChange -> _state.update { it.copy(modalidad = event.valor) }
+            is ObjetoEvent.OnBusquedaChange -> _state.update { it.copy(busqueda = event.valor) }
+            is ObjetoEvent.OnFiltroModalidad -> _state.update { it.copy(filtroModalidad = event.valor) }
+            is ObjetoEvent.OnSolicitar -> solicitar(event.id)
+            is ObjetoEvent.OnAceptar -> cambiarEstado(event.id) { it.copy(estado = Opciones.ACEPTADO) }
+            is ObjetoEvent.OnRechazar -> cambiarEstado(event.id) {
+                it.copy(estado = Opciones.DISPONIBLE, solicitante = "", fechaSolicitado = 0L)
+            }
+            ObjetoEvent.OnPublicar -> publicar()
+            ObjetoEvent.OnPublicadoConsumido -> _state.update { it.copy(publicado = false) }
+        }
+    }
+
+    private fun publicar() {
+        val s = _state.value
+        val peso = s.peso.replace(',', '.').toDoubleOrNull()
+
+        val error = when {
+            s.nombre.isBlank() -> "Escribe el nombre del objeto"
+            s.descripcion.isBlank() -> "Escribe una descripción"
+            peso == null || peso <= 0 -> "Ingresa un peso válido"
+            else -> ""
+        }
+        if (error.isNotEmpty()) {
+            _state.update { it.copy(error = error) }
+            return
+        }
+
+
+        viewModelScope.launch {
+            repository.insertar(
+                Objeto(
+                    nombre = s.nombre.trim(),
+                    descripcion = s.descripcion.trim(),
+                    categoria = s.categoria,
+                    conservacion = s.conservacion,
+                    peso = peso ?: 0.0,
+                    modalidad = s.modalidad
+                )
+            )
+            _state.update { ObjetoState().copy(publicado = true, exito = true) }        }
+    }
+    // Busca el objeto, le aplica el cambio y lo guarda
+    private fun cambiarEstado(id: Int, cambio: (Objeto) -> Objeto) {
+        val objeto = state.value.listaObjeto.find { it.id == id } ?: return
+        viewModelScope.launch { repository.actualizar(cambio(objeto)) }
+    }
+    private fun solicitar(id: Int) {
+        val objeto = state.value.listaObjeto.find { it.id == id } ?: return
+        if (objeto.estado != Opciones.DISPONIBLE) return
+
+        viewModelScope.launch {
+            repository.actualizar(
+                objeto.copy(
+                    estado = Opciones.SOLICITADO,
+                    solicitante = solicitantes[id % solicitantes.size],
+                    fechaSolicitado = System.currentTimeMillis()
+                )
+            )
+        }
+    }
+
+    private fun cargarDatosDeMuestra() {
+        viewModelScope.launch {
+            if (repository.contar() > 0) return@launch
+
+            val ahora = System.currentTimeMillis()
+            val hora = 60 * 60 * 1000L
+            val dia = 24 * hora
+            val objetos = listOf(
+                Objeto(
+                    nombre = "Libro de cálculo",
+                    descripcion = "Texto universitario con ejercicios resueltos y anotaciones útiles.",
+                    categoria = "Académico",
+                    conservacion = "Buen estado",
+                    peso = 0.7,
+                    modalidad = Opciones.DONACION,
+                    fechaPublicado = ahora - 6 * dia
+                ),
+                Objeto(
+                    nombre = "Novela juvenil",
+                    descripcion = "Novela en buen estado, ideal para compartir durante el ciclo.",
+                    categoria = "Libros",
+                    conservacion = "Buen estado",
+                    peso = 0.4,
+                    modalidad = Opciones.PRESTAMO,
+                    fechaPublicado = ahora - 4 * dia
+                ),
+                Objeto(
+                    nombre = "Regla T y escuadras",
+                    descripcion = "Juego de dibujo técnico completo y listo para reutilizar.",
+                    categoria = "Académico",
+                    conservacion = "Como nuevo",
+                    peso = 0.3,
+                    modalidad = Opciones.INTERCAMBIO,
+                    estado = Opciones.ACEPTADO,
+                    solicitante = "Diego Ramos",
+                    fechaPublicado = ahora - 8 * dia,
+                    fechaSolicitado = ahora - 2 * hora
+                ),
+                Objeto(
+                    nombre = "Mochila universitaria",
+                    descripcion = "Mochila amplia, limpia y con todos los cierres operativos.",
+                    categoria = "Accesorios",
+                    conservacion = "Buen estado",
+                    peso = 0.8,
+                    modalidad = Opciones.DONACION,
+                    estado = Opciones.SOLICITADO,
+                    solicitante = "Carlos Mendoza",
+                    fechaPublicado = ahora - 3 * dia,
+                    fechaSolicitado = ahora - 25 * 60 * 1000L
+                ),
+                Objeto(
+                    nombre = "Calculadora científica",
+                    descripcion = "Calculadora funcional con tapa protectora.",
+                    categoria = "Tecnología",
+                    conservacion = "Usado",
+                    peso = 0.2,
+                    modalidad = Opciones.DONACION,
+                    estado = Opciones.ENTREGADO,
+                    solicitante = "Lucía Herrera",
+                    fechaPublicado = ahora - 14 * dia,
+                    fechaSolicitado = ahora - 10 * dia,
+                    fechaEntregado = ahora - 7 * dia
+                )
+            )
+            objetos.forEach { repository.insertar(it) }
+        }
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/PerfilScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ListAlt
+import androidx.compose.material.icons.filled.Inventory2
+import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.domain.model.Opciones
+import com.reeloop.app.presentation.common.Encabezado
+import com.reeloop.app.presentation.viewmodel.ObjetoState
+import com.reeloop.app.ui.theme.Rojo
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+
+@Composable
+fun PerfilScreen(
+    state: ObjetoState,
+    onMisObjetos: () -> Unit,
+    onSolicitudes: () -> Unit,
+    onCerrarSesion: () -> Unit
+) {
+    val solicitudes = state.listaObjeto.count {
+        it.estado == Opciones.SOLICITADO || it.estado == Opciones.ACEPTADO
+    }
+
+    LazyColumn(
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(18.dp)
+    ) {
+        item { Encabezado("Perfil") }
+        item {
+            Column(
+                modifier = Modifier.fillMaxWidth().background(Color.White, RoundedCornerShape(24.dp)).padding(24.dp),
+                horizontalAlignment = Alignment.CenterHorizontally,
+                verticalArrangement = Arrangement.spacedBy(8.dp)
+            ) {
+                Box(
+                    contentAlignment = Alignment.Center,
+                    modifier = Modifier.size(92.dp).background(VerdeClaro, CircleShape)
+                ) {
+                    Text("A", fontSize = 34.sp, fontWeight = FontWeight.Bold, color = VerdeOscuro)
+                }
+                Text("Ana Torres", fontSize = 26.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+                Text("ana@correo.com", color = TextoGris)
+            }
+        }
+        item {
+            Text("TUS ACTIVIDADES:", fontSize = 13.sp, fontWeight = FontWeight.Bold, color = TextoGris, letterSpacing = 1.sp)
+        }
+        item {
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                OpcionPerfil(
+                    icono = Icons.Default.Inventory2,
+                    titulo = "Mis objetos",
+                    detalle = "${state.listaObjeto.size} publicaciones",
+                    onClick = onMisObjetos
+                )
+                OpcionPerfil(
+                    icono = Icons.AutoMirrored.Filled.ListAlt,
+                    titulo = "Solicitudes",
+                    detalle = "$solicitudes activas",
+                    onClick = onSolicitudes
+                )
+            }
+        }
+        item {
+            OutlinedButton(
+                onClick = onCerrarSesion,
+                border = BorderStroke(1.5.dp, Rojo),
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Text("Cerrar sesión", color = Rojo, fontWeight = FontWeight.SemiBold)
+            }
+        }
+    }
+}
+
+@Composable
+private fun OpcionPerfil(
+    icono: ImageVector,
+    titulo: String,
+    detalle: String,
+    onClick: () -> Unit
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth().background(Color.White, RoundedCornerShape(18.dp)).clickable(onClick = onClick).padding(16.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp)
+    ) {
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier.size(48.dp).background(VerdeClaro, RoundedCornerShape(14.dp))
+        ) {
+            Icon(icono, contentDescription = null, tint = VerdeOscuro)
+        }
+        Column(modifier = Modifier.weight(1f)) {
+            Text(titulo, fontWeight = FontWeight.SemiBold, color = TextoOscuro)
+            Text(detalle, color = TextoGris, fontSize = 13.sp)
+        }
+        Text("›", color = TextoGris, fontSize = 28.sp)
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/LoginScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.presentation.common.BotonPrincipal
+import com.reeloop.app.presentation.common.BotonSecundario
+import com.reeloop.app.presentation.common.CampoTexto
+import com.reeloop.app.presentation.common.LogoReeloop
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeOscuro
+
+@Composable
+fun LoginScreen(
+    onEntrar: () -> Unit,
+    onCrearCuenta: () -> Unit
+) {
+    var correo by remember { mutableStateOf("") }
+    var clave by remember { mutableStateOf("") }
+
+    Column(
+        modifier = Modifier.fillMaxSize().padding(24.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            LogoReeloop()
+            Text("ReLoop", fontSize = 36.sp, fontWeight = FontWeight.Bold, color = VerdeOscuro)
+        }
+        Text("Da una segunda vida a objetos útiles", color = TextoGris)
+
+        Spacer(Modifier.height(28.dp))
+        Text("Bienvenido de nuevo", fontSize = 30.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+        Spacer(Modifier.height(1.dp))
+        CampoTexto(
+            valor = correo,
+            onCambio = { correo = it },
+            etiqueta = "Correo electrónico",
+            teclado = KeyboardType.Email
+        )
+        CampoTexto(
+            valor = clave,
+            onCambio = { clave = it },
+            etiqueta = "Contraseña",
+            esPassword = true
+        )
+
+        BotonPrincipal(texto = "Entrar", onClick = onEntrar)
+
+        Spacer(Modifier.weight(1f))
+        Text(
+            "¿Aún no tienes cuenta?",
+            color = TextoGris,
+            modifier = Modifier.align(Alignment.CenterHorizontally)
+        )
+        BotonSecundario("Crear cuenta", onCrearCuenta, Modifier.fillMaxWidth())
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/InicioScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ListAlt
+import androidx.compose.material.icons.filled.Inventory2
+import androidx.compose.material.icons.filled.QrCodeScanner
+import androidx.compose.material3.Icon
+import androidx.compose.material3.LinearProgressIndicator
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.domain.model.Opciones
+import com.reeloop.app.presentation.common.AvatarUsuarios
+import com.reeloop.app.presentation.common.BotonPrincipal
+import com.reeloop.app.presentation.common.BotonSecundario
+import com.reeloop.app.presentation.common.LogoReeloop
+import com.reeloop.app.presentation.viewmodel.ObjetoState
+import com.reeloop.app.ui.theme.Borde
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+import com.reeloop.app.ui.theme.VerdePrincipal
+
+@Composable
+fun InicioScreen(
+    state: ObjetoState,
+    onPublicar: () -> Unit,
+    onExplorar: () -> Unit,
+    onMisObjetos: () -> Unit,
+    onSolicitudes: () -> Unit,
+    onEscanear: () -> Unit
+) {
+    val reutilizados = state.listaObjeto.count { it.estado == Opciones.ENTREGADO }
+    val solicitudes = state.listaObjeto.count {
+        it.estado == Opciones.SOLICITADO || it.estado == Opciones.ACEPTADO
+    }
+
+    LazyColumn(
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp)
+    ) {
+        item {
+            Row(verticalAlignment = Alignment.CenterVertically) {
+                LogoReeloop(tamaño = 34.dp)
+                Text(
+                    "ReLoop",
+                    fontWeight = FontWeight.Bold,
+                    fontSize = 20.sp,
+                    color = TextoOscuro,
+                    modifier = Modifier.padding(start = 10.dp).weight(1f)
+                )
+                AvatarUsuarios()
+            }
+        }
+        item {
+            Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+                Text("Hola, Ana", fontSize = 30.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+                Text("¿Qué objeto puede tener una nueva vida hoy?", color = TextoGris)
+            }
+        }
+        item { TarjetaImpacto(reutilizados, state.listaObjeto.size) }
+        item {
+            Text("Acciones principales", fontSize = 19.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+            Spacer(Modifier.height(10.dp))
+            Row(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                BotonPrincipal("Tengo un objeto", onPublicar, Modifier.weight(1f))
+                BotonSecundario("Necesito uno", onExplorar, Modifier.weight(1f))
+            }
+        }
+        item {
+            Text("Accesos rápidos", fontSize = 19.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+            Spacer(Modifier.height(10.dp))
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                AccesoRapido(
+                    icono = Icons.Default.Inventory2,
+                    titulo = "Mis objetos",
+                    detalle = "${state.listaObjeto.size} publicaciones",
+                    onClick = onMisObjetos
+                )
+                AccesoRapido(
+                    icono = Icons.AutoMirrored.Filled.ListAlt,
+                    titulo = "Solicitudes",
+                    detalle = "$solicitudes pendientes o aceptadas",
+                    onClick = onSolicitudes
+                )
+                AccesoRapido(
+                    icono = Icons.Default.QrCodeScanner,
+                    titulo = "Escanear entrega",
+                    detalle = "Vista de demostración sin cámara",
+                    onClick = onEscanear
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun TarjetaImpacto(reutilizados: Int, total: Int) {
+    val progreso = if (total == 0) 0f else reutilizados.toFloat() / total.toFloat()
+    Column(
+        modifier = Modifier.fillMaxWidth().background(VerdePrincipal, RoundedCornerShape(24.dp)).padding(20.dp),
+        verticalArrangement = Arrangement.spacedBy(8.dp)
+    ) {
+        Text("Tu EcoImpacto", color = Color.White, fontSize = 18.sp)
+        Row(verticalAlignment = Alignment.Bottom, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Text("$reutilizados", color = Color.White, fontSize = 38.sp, fontWeight = FontWeight.Bold)
+            Text("objetos reutilizados", color = Color.White.copy(alpha = 0.9f), modifier = Modifier.padding(bottom = 6.dp))
+        }
+        LinearProgressIndicator(
+            progress = { progreso },
+            color = VerdeClaro,
+            trackColor = VerdeOscuro.copy(alpha = 0.45f),
+            modifier = Modifier.fillMaxWidth().padding(top = 8.dp)
+        )
+    }
+}
+
+@Composable
+private fun AccesoRapido(icono: ImageVector, titulo: String, detalle: String, onClick: () -> Unit) {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(Color.White, RoundedCornerShape(18.dp))
+            .clickable(onClick = onClick)
+            .padding(14.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(14.dp)
+    ) {
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier.size(48.dp).background(VerdeClaro, CircleShape)
+        ) {
+            Icon(icono, contentDescription = null, tint = VerdePrincipal)
+        }
+        Column(modifier = Modifier.weight(1f)) {
+            Text(titulo, fontWeight = FontWeight.SemiBold, color = TextoOscuro)
+            Text(detalle, color = TextoGris, fontSize = 13.sp)
+        }
+        Text("›", color = Borde, fontSize = 28.sp)
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/PublicarScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
+import androidx.compose.material3.Icon
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.unit.dp
+import com.reeloop.app.domain.model.Opciones
+import com.reeloop.app.presentation.common.BotonPrincipal
+import com.reeloop.app.presentation.common.CampoSelector
+import com.reeloop.app.presentation.common.CampoTexto
+import com.reeloop.app.presentation.common.ChipOpcion
+import com.reeloop.app.presentation.common.Encabezado
+import com.reeloop.app.presentation.event.ObjetoEvent
+import com.reeloop.app.presentation.viewmodel.ObjetoState
+import com.reeloop.app.ui.theme.Borde
+import com.reeloop.app.ui.theme.Rojo
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdePrincipal
+
+@Composable
+fun PublicarScreen(
+    state: ObjetoState,
+    onEvent: (ObjetoEvent) -> Unit,
+    onPublicado: () -> Unit
+){
+    LaunchedEffect(state.publicado) {
+        if(state.publicado){
+            onEvent(ObjetoEvent.OnPublicadoConsumido)
+            onPublicado()
+        }
+    }
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Encabezado("Publicar objeto")
+        ZonaFoto()
+
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            CampoTexto(
+                valor = state.nombre,
+                onCambio = { onEvent(ObjetoEvent.OnNombreChange(it)) },
+                etiqueta = "Nombre",
+                modifier = Modifier.weight(1f)
+            )
+            CampoSelector(
+                valor = state.categoria,
+                opciones = Opciones.categorias,
+                etiqueta = "Categoría",
+                onSeleccion = { onEvent(ObjetoEvent.OnCategoriaChange(it)) },
+                modifier = Modifier.weight(1f)
+            )
+        }
+
+        CampoTexto(
+            valor = state.descripcion,
+            onCambio = { onEvent(ObjetoEvent.OnDescripcionChange(it)) },
+            etiqueta = "Descripción",
+            lineas = 3
+        )
+
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            CampoSelector(
+                valor = state.conservacion,
+                opciones = Opciones.conservaciones,
+                etiqueta = "Conservación",
+                onSeleccion = { onEvent(ObjetoEvent.OnConservacionChange(it)) },
+                modifier = Modifier.weight(1f)
+            )
+            CampoTexto(
+                valor = state.peso,
+                onCambio = { onEvent(ObjetoEvent.OnPesoChange(it)) },
+                etiqueta = "Peso (kg)",
+                modifier = Modifier.weight(1f),
+                teclado = KeyboardType.Decimal
+            )
+        }
+
+        Text("Modalidad", fontWeight = FontWeight.Bold, color = TextoOscuro)
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            Opciones.modalidades.forEach { modalidad ->
+                ChipOpcion(
+                    texto = modalidad,
+                    seleccionado = state.modalidad == modalidad,
+                    onClick = { onEvent(ObjetoEvent.OnModalidadChange(modalidad)) }
+                )
+            }
+        }
+
+        if (state.error.isNotEmpty()) {
+            Text(state.error, color = Rojo)
+        }
+        BotonPrincipal("Publicar objeto", onClick = { onEvent(ObjetoEvent.OnPublicar) })
+    }
+}
+@Composable
+private fun ZonaFoto() {
+    Box(
+        contentAlignment = Alignment.Center,
+        modifier = Modifier
+            .fillMaxWidth()
+            .height(150.dp)
+            .background(VerdeClaro.copy(alpha = 0.4f), RoundedCornerShape(20.dp))
+            .border(1.dp, Borde, RoundedCornerShape(20.dp))
+    ) {
+        Column(horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(8.dp)) {
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier.size(48.dp).background(VerdeClaro, CircleShape)
+            ) {
+                Icon(Icons.Default.Add, contentDescription = null, tint = VerdePrincipal)
+            }
+            Text("Añadir fotografía", color = VerdePrincipal, fontWeight = FontWeight.SemiBold)
+        }
+    }
+}
+
+
+
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/PasaporteScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.domain.model.Opciones
+import com.reeloop.app.presentation.common.EncabezadoAtras
+import com.reeloop.app.presentation.common.colorCategoria
+import com.reeloop.app.ui.theme.Borde
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdePrincipal
+import java.text.SimpleDateFormat
+import java.util.Date
+import java.util.Locale
+
+@Composable
+fun PasaporteScreen(objeto: Objeto?, onVolver: () -> Unit) {
+    LazyColumn(
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(18.dp)
+    ) {
+        item { EncabezadoAtras("Pasaporte circular", onVolver) }
+        item {
+            Text("Pasaporte del objeto", fontSize = 30.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+            Text("Historia local de esta nueva vida.", color = TextoGris)
+        }
+        if (objeto == null) {
+            item { Text("No se encontró el objeto.", color = TextoGris) }
+            return@LazyColumn
+        }
+        item {
+            Row(
+                modifier = Modifier.fillMaxWidth().background(VerdeClaro.copy(alpha = 0.45f), RoundedCornerShape(22.dp)).padding(16.dp),
+                verticalAlignment = Alignment.CenterVertically,
+                horizontalArrangement = Arrangement.spacedBy(14.dp)
+            ) {
+                Box(
+                    contentAlignment = Alignment.Center,
+                    modifier = Modifier.size(64.dp).background(colorCategoria(objeto.categoria), RoundedCornerShape(16.dp))
+                ) {
+                    Text(objeto.nombre.take(1).uppercase(), fontSize = 26.sp, fontWeight = FontWeight.Bold)
+                }
+                Column {
+                    Text(objeto.nombre, fontSize = 19.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+                    Text("Objeto #RL-${objeto.id.toString().padStart(4, '0')} · ${objeto.modalidad.uppercase()}", color = TextoGris)
+                }
+            }
+        }
+        item {
+            Column(verticalArrangement = Arrangement.spacedBy(0.dp)) {
+                PasoPasaporte("PUBLICADO", "Objeto registrado en Room", objeto.fechaPublicado, true)
+                if (objeto.fechaSolicitado > 0L) {
+                    PasoPasaporte("SOLICITADO", "Solicitud aceptada o pendiente", objeto.fechaSolicitado, true)
+                }
+                if (objeto.fechaEntregado > 0L || objeto.estado == Opciones.ENTREGADO) {
+                    PasoPasaporte("ENTREGADO", "Entrega marcada como completada", objeto.fechaEntregado, false)
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun PasoPasaporte(titulo: String, detalle: String, fecha: Long, mostrarLinea: Boolean) {
+    Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(16.dp)) {
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Box(Modifier.size(22.dp).background(VerdePrincipal, CircleShape))
+            if (mostrarLinea) {
+                Box(Modifier.width(2.dp).fillMaxHeight().background(Borde))
+            }
+        }
+        Column(modifier = Modifier.padding(bottom = 28.dp)) {
+            Text(titulo, fontWeight = FontWeight.Bold, color = TextoOscuro, letterSpacing = 1.sp)
+            Text(detalle, color = TextoGris)
+            Text(formatearFecha(fecha), color = TextoGris, fontSize = 13.sp)
+        }
+    }
+}
+
+private fun formatearFecha(valor: Long): String {
+    if (valor <= 0L) return "Sin fecha"
+    return SimpleDateFormat("dd MMM yyyy · HH:mm", Locale.forLanguageTag("es-PE")).format(Date(valor))
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/ImpactoScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.domain.model.Opciones
+import com.reeloop.app.presentation.common.Encabezado
+import com.reeloop.app.presentation.viewmodel.ObjetoState
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+import com.reeloop.app.ui.theme.VerdePrincipal
+
+@Composable
+fun ImpactoScreen(state: ObjetoState) {
+    val completados = state.listaObjeto.filter { it.estado == Opciones.ENTREGADO }
+    val donaciones = completados.count { it.modalidad == Opciones.DONACION }
+    val prestamos = completados.count { it.modalidad == Opciones.PRESTAMO }
+    val intercambios = completados.count { it.modalidad == Opciones.INTERCAMBIO }
+
+    LazyColumn(
+        contentPadding = PaddingValues(20.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp)
+    ) {
+        item { Encabezado("EcoImpacto") }
+        item {
+            Text("Tu EcoImpacto", fontSize = 30.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+        }
+        item {
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Metrica(completados.size, "Reutilizados", Modifier.weight(1f))
+                Metrica(donaciones, "Donaciones", Modifier.weight(1f))
+            }
+        }
+        item {
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                Metrica(prestamos, "Préstamos", Modifier.weight(1f))
+                Metrica(intercambios, "Intercambios", Modifier.weight(1f))
+            }
+        }
+        item {
+            Column(
+                modifier = Modifier.fillMaxWidth().background(VerdeOscuro, RoundedCornerShape(24.dp)).padding(20.dp),
+                verticalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                Text("Ciclos completados", color = VerdeClaro, fontWeight = FontWeight.SemiBold)
+                Text("${completados.size}", color = Color.White, fontSize = 42.sp, fontWeight = FontWeight.Bold)
+                Text("objetos ya tuvieron otra vida", color = Color.White)
+            }
+        }
+    }
+}
+
+@Composable
+private fun Metrica(valor: Int, titulo: String, modifier: Modifier = Modifier) {
+    Column(
+        modifier = modifier.background(VerdeClaro.copy(alpha = 0.6f), RoundedCornerShape(20.dp)).padding(18.dp),
+        verticalArrangement = Arrangement.spacedBy(6.dp)
+    ) {
+        Text("$valor", color = VerdePrincipal, fontSize = 34.sp, fontWeight = FontWeight.Bold)
+        Text(titulo, color = TextoOscuro)
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/CodigoQrScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.QrCode2
+import androidx.compose.material3.Icon
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.presentation.common.BotonPrincipal
+import com.reeloop.app.presentation.common.EncabezadoAtras
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+
+@Composable
+fun CodigoQrScreen(objeto: Objeto?, onVolver: () -> Unit) {
+    var version by remember { mutableIntStateOf(1) }
+
+    Column(
+        modifier = Modifier.fillMaxSize().padding(20.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(18.dp)
+    ) {
+        EncabezadoAtras("Código QR", onVolver)
+        Column(horizontalAlignment = Alignment.CenterHorizontally) {
+            Text("QR de entrega", fontSize = 30.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+            Text(objeto?.nombre ?: "", color = TextoGris, textAlign = TextAlign.Center)
+        }
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier.size(260.dp).background(Color.White, RoundedCornerShape(28.dp)).padding(20.dp)
+        ) {
+            Icon(
+                Icons.Default.QrCode2,
+                contentDescription = "Código QR",
+                tint = VerdeOscuro,
+                modifier = Modifier.fillMaxSize()
+            )
+        }
+        Box(Modifier.weight(1f))
+        BotonPrincipal("Regenerar vista", onClick = { version += 1 }, Modifier.fillMaxWidth())
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/MisObjetosScreen.kt <==
+package com.reeloop.app.presentation.screens
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Check
+import androidx.compose.material3.Icon
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.DisposableEffect
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.presentation.common.BotonPrincipal
+import com.reeloop.app.presentation.common.Encabezado
+import com.reeloop.app.presentation.common.ObjetoItem
+import com.reeloop.app.presentation.event.ObjetoEvent
+import com.reeloop.app.presentation.viewmodel.ObjetoState
+import com.reeloop.app.ui.theme.GrisClaro
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+
+@Composable
+fun MisObjetosScreen(
+    state: ObjetoState,
+    onEvent: (ObjetoEvent) -> Unit,
+    onPublicar: () -> Unit,
+    onVerDetalle: (Int) -> Unit
+) {
+    // Al salir de la pantalla, el banner de éxito se apaga
+    DisposableEffect(Unit) {
+        onDispose { onEvent(ObjetoEvent.OnExitoVisto) }
+    }
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        item { Encabezado("Mis objetos") }
+
+        if (state.exito) {
+            item { BannerExito() }
+        }
+
+        if (state.listaObjeto.isEmpty()) {
+            item {
+                Text(
+                    text = "Aún no has publicado objetos.",
+                    color = TextoGris,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 24.dp)
+                )
+            }
+            item { BotonPrincipal("Publicar objeto", onClick = onPublicar) }
+        } else {
+            items(state.listaObjeto, key = { it.id }) { objeto ->
+                ObjetoItem(objeto = objeto, mostrarFecha = true, onClick = { onVerDetalle(objeto.id) })
+            }
+        }
+
+        item {
+            Text(
+                text = "Consejo: una buena foto aumenta las solicitudes.",
+                color = TextoGris,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .background(GrisClaro, RoundedCornerShape(16.dp))
+                    .padding(16.dp)
+            )
+        }
+    }
+}
+
+@Composable
+private fun BannerExito() {
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(VerdeClaro, RoundedCornerShape(20.dp))
+            .padding(16.dp),
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier.size(44.dp).background(VerdeOscuro, CircleShape)
+        ) {
+            Icon(Icons.Default.Check, contentDescription = null, tint = Color.White)
+        }
+        Column {
+            Text("¡Publicación creada!", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+            Text("Tu objeto ya aparece en Explorar.", color = TextoGris)
+        }
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/DetalleScreen.kt <==
+package com.reeloop.app.presentation.screens
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.domain.model.Opciones
+import com.reeloop.app.presentation.common.BotonPrincipal
+import com.reeloop.app.presentation.common.BotonSecundario
+import com.reeloop.app.presentation.common.EncabezadoAtras
+import com.reeloop.app.presentation.common.Etiqueta
+import com.reeloop.app.presentation.common.colorCategoria
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdePrincipal
+
+@Composable
+fun DetalleScreen(
+    objeto: Objeto?,
+    onVolver: () -> Unit,
+    onSolicitar: () -> Unit,
+    onPasaporte: () -> Unit
+) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(16.dp)
+    ) {
+        EncabezadoAtras("Detalle del objeto", onVolver)
+
+        if (objeto == null) {
+            Text("Este objeto ya no existe.", color = TextoGris)
+            return@Column
+        }
+        val disponible = objeto.estado == Opciones.DISPONIBLE
+
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(180.dp)
+                .background(colorCategoria(objeto.categoria), RoundedCornerShape(24.dp))
+        ) {
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier.size(100.dp).background(Color.White.copy(alpha = 0.45f), CircleShape)
+            ) {
+                Text(
+                    text = objeto.nombre.take(1).uppercase(),
+                    fontSize = 44.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = TextoOscuro
+                )
+            }
+        }
+
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(8.dp)
+        ) {
+            Text(
+                text = objeto.nombre,
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold,
+                color = TextoOscuro,
+                modifier = Modifier.weight(1f)
+            )
+            Etiqueta(objeto.estado, destacada = disponible)
+        }
+
+        Text("${objeto.categoria} · ${objeto.conservacion}", color = TextoGris)
+        Text(objeto.descripcion, color = TextoOscuro, lineHeight = 24.sp)
+        Text("Peso aproximado: ${objeto.peso} kg", color = TextoGris)
+
+        Column {
+            Text("MODALIDAD", fontSize = 12.sp, fontWeight = FontWeight.SemiBold, color = TextoGris, letterSpacing = 1.sp)
+            Text(objeto.modalidad.uppercase(), fontSize = 24.sp, fontWeight = FontWeight.Bold, color = VerdePrincipal)
+        }
+
+        Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+            BotonSecundario("Ver pasaporte", onPasaporte, Modifier.weight(1f))
+            BotonPrincipal(
+                texto = if (disponible) "Solicitar objeto" else "Ya solicitado",
+                onClick = onSolicitar,
+                modifier = Modifier.weight(1f),
+                habilitado = disponible
+            )
+        }
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/ExplorarScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.domain.model.Opciones
+import com.reeloop.app.presentation.common.CampoTexto
+import com.reeloop.app.presentation.common.ChipOpcion
+import com.reeloop.app.presentation.common.Encabezado
+import com.reeloop.app.presentation.common.ObjetoItem
+import com.reeloop.app.presentation.event.ObjetoEvent
+import com.reeloop.app.presentation.viewmodel.ObjetoState
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+
+@Composable
+fun ExplorarScreen(
+    state: ObjetoState,
+    onEvent: (ObjetoEvent) -> Unit,
+    onVerDetalle: (Int) -> Unit
+){
+
+
+    val filtros= listOf("Todos") + Opciones.modalidades
+
+    val resultados = state.listaObjeto.filter { objeto ->
+        objeto.estado == Opciones.DISPONIBLE &&
+            (state.filtroModalidad == "Todos" || objeto.modalidad == state.filtroModalidad) &&
+            objeto.nombre.contains(state.busqueda, ignoreCase = true)
+    }
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        item { Encabezado("Explorar") }
+        item {
+            CampoTexto(
+                valor = state.busqueda,
+                onCambio = { onEvent(ObjetoEvent.OnBusquedaChange(it)) },
+                etiqueta = "Buscar por nombre",
+                icono = Icons.Default.Search
+            )
+        }
+        item {
+            Row(
+                horizontalArrangement = Arrangement.spacedBy(8.dp),
+                modifier = Modifier.fillMaxWidth().horizontalScroll(rememberScrollState())
+            ) {
+                filtros.forEach { filtro ->
+                    ChipOpcion(
+                        texto = filtro,
+                        seleccionado = state.filtroModalidad == filtro,
+                        onClick = { onEvent(ObjetoEvent.OnFiltroModalidad(filtro)) }
+                    )
+                }
+            }
+        }
+        item {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween
+            ) {
+                Text("Resultados destacados", fontSize = 18.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+                Text("${resultados.size} objetos", color = TextoGris)
+            }
+        }
+
+        if (resultados.isEmpty()) {
+            item {
+                Text(
+                    text = "No hay objetos para mostrar.",
+                    color = TextoGris,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 32.dp)
+                )
+            }
+        } else {
+            items(resultados, key = { it.id }) { objeto ->
+                ObjetoItem(objeto = objeto, onClick = { onVerDetalle(objeto.id) })
+            }
+        }
+    }
+
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/SolicitudesScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.PaddingValues
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.width
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.HorizontalDivider
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.text.buildAnnotatedString
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.domain.model.Opciones
+import com.reeloop.app.presentation.common.BotonPrincipal
+import com.reeloop.app.presentation.common.BotonSecundario
+import com.reeloop.app.presentation.common.EncabezadoAtras
+import com.reeloop.app.presentation.common.Etiqueta
+import com.reeloop.app.presentation.common.colorCategoria
+import com.reeloop.app.presentation.event.ObjetoEvent
+import com.reeloop.app.presentation.viewmodel.ObjetoState
+import com.reeloop.app.ui.theme.Borde
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.util.Fechas
+
+@Composable
+fun SolicitudesScreen(
+    state: ObjetoState,
+    onEvent: (ObjetoEvent) -> Unit,
+    onVolver: () ->Unit,
+    onVerQr:(Int) -> Unit
+){
+    val solicitudes =state.listaObjeto
+        .filter { it.estado == Opciones.SOLICITADO || it.estado == Opciones.ACEPTADO }
+        .sortedByDescending { it.fechaSolicitado }
+    LazyColumn(
+        modifier = Modifier.fillMaxSize(),
+        contentPadding = PaddingValues(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        item { EncabezadoAtras("Solicitudes", onVolver) }
+        item {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Column(modifier = Modifier.weight(1f)) {
+                    Text("Solicitudes recibidas", fontSize = 20.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+                    Text("Revisa quién necesita tus objetos publicados", fontSize = 14.sp, color = TextoGris)
+                }
+                Etiqueta("${solicitudes.size} activas", destacada = true)
+            }
+        }
+
+        if (solicitudes.isEmpty()) {
+            item {
+                Text(
+                    text = "No tienes solicitudes por ahora.",
+                    color = TextoGris,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 32.dp)
+                )
+            }
+        } else {
+            items(solicitudes, key = { it.id }) { objeto ->
+                TarjetaSolicitud(
+                    objeto = objeto,
+                    onAceptar = { onEvent(ObjetoEvent.OnAceptar(objeto.id)) },
+                    onRechazar = { onEvent(ObjetoEvent.OnRechazar(objeto.id)) },
+                    onVerQr = { onVerQr(objeto.id) }
+                )
+            }
+        }
+    }
+
+}
+@Composable
+private fun TarjetaSolicitud(
+    objeto: Objeto,
+    onAceptar: () -> Unit,
+    onRechazar: () -> Unit,
+    onVerQr: () -> Unit
+) {
+    val pendiente = objeto.estado == Opciones.SOLICITADO
+    val forma = RoundedCornerShape(24.dp)
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .background(Color.White, forma)
+            .border(1.dp, Borde, forma)
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Row(horizontalArrangement = Arrangement.spacedBy(14.dp)) {
+            Box(
+                contentAlignment = Alignment.Center,
+                modifier = Modifier
+                    .size(64.dp)
+                    .background(colorCategoria(objeto.categoria), RoundedCornerShape(16.dp))
+            ) {
+                Text(
+                    text = objeto.nombre.take(1).uppercase(),
+                    fontSize = 26.sp,
+                    fontWeight = FontWeight.Bold,
+                    color = TextoOscuro
+                )
+            }
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
+                Row(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Text(
+                        text = objeto.nombre,
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = TextoOscuro,
+                        modifier = Modifier.weight(1f)
+                    )
+                    Etiqueta(if (pendiente) "Pendiente" else "Aceptada", destacada = !pendiente)
+                }
+                Text(
+                    text = buildAnnotatedString {
+                        append("Pide: ")
+                        withStyle(SpanStyle(fontWeight = FontWeight.Bold, color = TextoOscuro)) {
+                            append(objeto.solicitante)
+                        }
+                    },
+                    color = TextoGris
+                )
+                Text(
+                    text = if (pendiente) {
+                        "${Fechas.haceCuanto(objeto.fechaSolicitado)} · ${objeto.modalidad}"
+                    } else {
+                        "Acuerdo confirmado · QR generado"
+                    },
+                    fontSize = 14.sp,
+                    color = TextoGris
+                )
+            }
+        }
+
+        HorizontalDivider(color = Borde)
+
+        if (pendiente) {
+            Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
+                BotonSecundario("Rechazar", onRechazar, Modifier.weight(1f))
+                BotonPrincipal("Aceptar", onAceptar, Modifier.weight(1f))
+            }
+        } else {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceBetween,
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Text("Entrega programada", color = TextoGris)
+                BotonSecundario("Ver código QR", onVerQr, Modifier.width(170.dp))
+            }
+        }
+    }
+}
+==> app/src/main/java/com/reeloop/app/presentation/screens/EscanearQrScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.QrCodeScanner
+import androidx.compose.material3.Icon
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.presentation.common.BotonSecundario
+import com.reeloop.app.presentation.common.EncabezadoAtras
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+
+@Composable
+fun EscanearQrScreen(onVolver: () -> Unit) {
+    Column(
+        modifier = Modifier.fillMaxSize().padding(20.dp),
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.spacedBy(18.dp)
+    ) {
+        EncabezadoAtras("Escanear QR", onVolver)
+        Text("Escanea el código", fontSize = 28.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier.fillMaxWidth().height(340.dp).background(VerdeOscuro, RoundedCornerShape(28.dp))
+        ) {
+            Icon(
+                Icons.Default.QrCodeScanner,
+                contentDescription = "Marco de escaneo",
+                tint = VerdeClaro,
+                modifier = Modifier.size(230.dp)
+            )
+        }
+
+        Box(Modifier.weight(1f))
+        BotonSecundario("Cancelar escaneo", onVolver, Modifier.fillMaxWidth())
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/screens/RegistroScreen.kt <==
+package com.reeloop.app.presentation.screens
+
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.presentation.common.BotonPrincipal
+import com.reeloop.app.presentation.common.CampoTexto
+import com.reeloop.app.presentation.common.LogoReeloop
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeOscuro
+import com.reeloop.app.ui.theme.VerdePrincipal
+
+@Composable
+fun RegistroScreen(
+    onRegistrarme: () -> Unit,
+    onYatengoCuenta: () -> Unit
+) {
+    var nombre by remember { mutableStateOf("") }
+    var correo by remember { mutableStateOf("") }
+    var clave by remember { mutableStateOf("") }
+
+    Column(
+        modifier = Modifier.fillMaxSize().padding(24.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+            LogoReeloop(tamaño = 40.dp)
+            Text("ReLoop", fontSize = 26.sp, fontWeight = FontWeight.Bold, color = VerdeOscuro)
+        }
+
+        Spacer(Modifier.height(20.dp))
+        Text("Crea tu cuenta", fontSize = 30.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+        Text("Un perfil sencillo.", color = TextoGris)
+
+        Spacer(Modifier.height(8.dp))
+        CampoTexto(valor = nombre, onCambio = { nombre = it }, etiqueta = "Nombre completo")
+        CampoTexto(
+            valor = correo,
+            onCambio = { correo = it },
+            etiqueta = "Correo electrónico",
+            teclado = KeyboardType.Email
+        )
+        CampoTexto(
+            valor = clave,
+            onCambio = { clave = it },
+            etiqueta = "Contraseña",
+            esPassword = true
+        )
+
+        BotonPrincipal(texto = "Continuar", onClick = onRegistrarme)
+        TextButton(onClick = onYatengoCuenta, modifier = Modifier.align(Alignment.CenterHorizontally)) {
+            Text("Ya tengo una cuenta", color = VerdePrincipal, fontWeight = FontWeight.SemiBold)
+        }
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/common/campoSelector.kt <==
+package com.reeloop.app.presentation.common
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.DropdownMenu
+import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.Text
+import androidx.compose.ui.Modifier
+
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import com.reeloop.app.ui.theme.Borde
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+
+@Composable
+fun CampoSelector(
+    valor: String,
+    opciones: List<String>,
+    etiqueta: String,
+    onSeleccion: (String) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    var abierto by remember { mutableStateOf(false) }
+
+    Box(modifier) {
+        CampoTexto(valor = valor, onCambio = {}, etiqueta = etiqueta, readOnly = true)
+        Box(Modifier.matchParentSize().clickable { abierto = true })
+
+        DropdownMenu(
+            expanded = abierto,
+            onDismissRequest = { abierto = false },
+            containerColor = Color.White,
+            shape = RoundedCornerShape(16.dp),
+            border = BorderStroke(1.dp, Borde)
+        ) {
+            opciones.forEach { opcion ->
+                val elegida = opcion == valor
+                DropdownMenuItem(
+                    text = {
+                        Text(
+                            text = opcion,
+                            color = if (elegida) VerdeOscuro else TextoOscuro,
+                            fontWeight = if (elegida) FontWeight.SemiBold else FontWeight.Normal
+                        )
+                    },
+                    onClick = {
+                        onSeleccion(opcion)
+                        abierto = false
+                    },
+                    modifier = Modifier.background(if (elegida) VerdeClaro else Color.Transparent)
+                )
+            }
+        }
+    }
+}
+
+
+
+==> app/src/main/java/com/reeloop/app/presentation/common/LogoReLoop.kt <==
+package com.reeloop.app.presentation.common
+
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.Inventory
+import androidx.compose.material.icons.outlined.Inventory2
+import androidx.compose.material3.Icon
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.AlignmentLine
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
+import com.reeloop.app.ui.theme.VerdePrincipal
+
+@Composable
+fun LogoReeloop(tamaño: Dp =56.dp  ){
+    Box(
+        contentAlignment = Alignment.Center,
+        modifier = Modifier.size(tamaño).border(2.dp, VerdePrincipal, CircleShape)
+    ){
+        Icon(
+            imageVector = Icons.Outlined.Inventory2,
+            contentDescription = "LogoReloop",
+            tint = VerdePrincipal,
+            modifier = Modifier.size(tamaño * 0.5f)
+        )
+
+    }
+
+}
+==> app/src/main/java/com/reeloop/app/presentation/common/CampoTexto.kt <==
+package com.reeloop.app.presentation.common
+
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.material.icons.Icons
+import androidx.compose.material3.Icon
+import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.OutlinedTextFieldDefaults
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.compose.ui.text.input.PasswordVisualTransformation
+import androidx.compose.ui.text.input.VisualTransformation
+import androidx.compose.ui.unit.dp
+import com.reeloop.app.ui.theme.Borde
+import com.reeloop.app.ui.theme.VerdePrincipal
+
+@Composable
+fun CampoTexto(
+    valor : String,
+    onCambio :(String)-> Unit,
+    etiqueta: String,
+    modifier: Modifier = Modifier,
+    esPassword: Boolean = false,
+    teclado: KeyboardType = KeyboardType.Text ,
+    readOnly: Boolean = false,
+    lineas: Int = 1,
+    icono: ImageVector? = null
+) {
+    OutlinedTextField(
+        value = valor,
+        onValueChange = onCambio,
+        label = { Text(etiqueta) },
+        readOnly = readOnly,
+        trailingIcon = icono?.let { { Icon(it, contentDescription = null) } },
+        singleLine = lineas == 1,
+        minLines = lineas,
+        shape = RoundedCornerShape(16.dp),
+        visualTransformation = if (esPassword) PasswordVisualTransformation() else VisualTransformation.None,
+        keyboardOptions = KeyboardOptions(keyboardType = if (esPassword) KeyboardType.Password else teclado),
+        colors = OutlinedTextFieldDefaults.colors(
+            focusedBorderColor = VerdePrincipal,
+            unfocusedBorderColor = Borde,
+            focusedLabelColor = VerdePrincipal,
+            focusedContainerColor = Color.White,
+            unfocusedContainerColor = Color.White
+        ),
+        modifier = modifier.fillMaxWidth()
+    )
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/common/Botones.kt <==
+package com.reeloop.app.presentation.common
+
+import android.widget.Button
+import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.ButtonDefaults
+import androidx.compose.material3.Button
+import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import com.reeloop.app.ui.theme.VerdePrincipal
+
+@Composable
+fun BotonPrincipal(
+    texto : String,
+    onClick : () -> Unit,
+    modifier:  Modifier = Modifier ,
+    habilitado: Boolean = true
+
+)
+{
+   Button(
+        onClick = onClick,
+       enabled = habilitado,
+       shape = CircleShape,
+        colors = ButtonDefaults.buttonColors(
+            containerColor = VerdePrincipal,
+            contentColor = Color.White,
+            disabledContainerColor = VerdePrincipal.copy(alpha = 0.4f),
+            disabledContentColor = Color.White
+        ),
+        modifier = modifier.fillMaxWidth().height(56.dp)
+
+    ){
+        Text(texto, fontWeight = FontWeight.SemiBold)
+    }
+}
+
+@Composable
+fun BotonSecundario (texto: String , onClick: () -> Unit, modifier: Modifier = Modifier){
+    OutlinedButton(
+        onClick,
+        shape = CircleShape,
+        border = BorderStroke(1.5.dp, VerdePrincipal),
+        colors = ButtonDefaults.outlinedButtonColors(Color.White),
+        modifier = modifier.fillMaxWidth().height(56.dp)
+
+    ) {
+        Text(texto, fontWeight = FontWeight.SemiBold)
+    }
+
+}
+==> app/src/main/java/com/reeloop/app/presentation/common/Encabezado.kt <==
+package com.reeloop.app.presentation.common
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material3.Icon
+import androidx.compose.material3.IconButton
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+
+@Composable
+fun Encabezado(titulo: String) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        LogoReeloop(tamaño = 40.dp)
+        Text(
+            text = titulo,
+            fontSize = 24.sp,
+            fontWeight = FontWeight.Bold,
+            color = TextoOscuro,
+            modifier = Modifier.weight(1f)
+        )
+    }
+}
+
+@Composable
+fun EncabezadoAtras(Titulo : String, onVolver: () -> Unit){
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(4.dp)
+    ) {
+        IconButton(onClick = onVolver) {
+            Icon(Icons.AutoMirrored.Filled.ArrowBack, contentDescription = "Volver", tint = TextoOscuro )
+        }
+        Text(
+            text= Titulo,
+            fontWeight = FontWeight.Bold,
+            color=TextoOscuro,
+            modifier = Modifier.weight(1f)
+        )
+    }
+
+}
+@Composable
+fun AvatarUsuarios(){
+    Box(
+       contentAlignment = Alignment.Center,
+        modifier = Modifier.size(40.dp).background(VerdeClaro, CircleShape)
+    ){
+        Text("A", color = VerdeOscuro, fontWeight = FontWeight.Bold)
+    }
+
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/common/ChipOpcion.kt <==
+package com.reeloop.app.presentation.common
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+@Composable
+fun ChipOpcion(texto: String, seleccionado: Boolean, onClick: () -> Unit) {
+    FilterChip(
+        selected = seleccionado,
+        onClick = onClick,
+        label = { Text(texto) },
+        shape = CircleShape,
+        colors = FilterChipDefaults.filterChipColors(
+            containerColor = Color.White,
+            labelColor = TextoOscuro,
+            selectedContainerColor = VerdeClaro,
+            selectedLabelColor = VerdeOscuro
+        )
+    )
+}
+==> app/src/main/java/com/reeloop/app/presentation/common/Etiqueta.kt <==
+package com.reeloop.app.presentation.common
+
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.ui.theme.Borde
+import com.reeloop.app.ui.theme.GrisClaro
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.ui.theme.VerdeOscuro
+import com.reeloop.app.ui.theme.VerdePrincipal
+
+@Composable
+fun Etiqueta(texto: String, destacada: Boolean = false) {
+    Text(
+        text = texto,
+        fontSize = 12.sp,
+        fontWeight = FontWeight.Medium,
+        color = if (destacada) VerdeOscuro else TextoGris,
+        modifier = Modifier
+            .background(if (destacada) VerdeClaro else GrisClaro, CircleShape)
+            .border(1.dp, if (destacada) VerdePrincipal else Borde, CircleShape)
+            .padding(horizontal = 10.dp, vertical = 4.dp)
+    )
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/common/BarraInferior.kt <==
+package com.reeloop.app.presentation.common
+
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.AddCircleOutline
+import androidx.compose.material.icons.filled.Eco
+import androidx.compose.material.icons.filled.Home
+import androidx.compose.material.icons.filled.Person
+import androidx.compose.material.icons.filled.Search
+import androidx.compose.material3.Icon
+import androidx.compose.material3.NavigationBar
+import androidx.compose.material3.NavigationBarItem
+import androidx.compose.material3.NavigationBarItemDefaults
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.navigation.Navigator
+import com.reeloop.app.navigation.Rutas
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.VerdePrincipal
+import org.w3c.dom.Text
+
+private data class ItemBarra( val ruta: String, val titulo: String , val icono: ImageVector)
+
+private val items=listOf(
+    ItemBarra(Rutas.INICIO, "Inicio", Icons.Default.Home),
+    ItemBarra(Rutas.EXPLORAR, "Explorar", Icons.Default.Search),
+    ItemBarra(Rutas.PUBLICAR, "Publicar", Icons.Default.AddCircleOutline),
+    ItemBarra(Rutas.IMPACTO, "Impacto", Icons.Default.Eco),
+    ItemBarra(Rutas.PERFIL, "Perfil", Icons.Default.Person)
+
+)
+
+@Composable
+
+fun BarraInferior(seleccionada: String?, onClick: (String) -> Unit){
+    NavigationBar(containerColor = Color.White) {
+        items.forEach { item->
+            NavigationBarItem(
+                selected = seleccionada == item.ruta,
+                onClick ={onClick(item.ruta)},
+                icon = { Icon(item.icono, contentDescription = item.titulo) },
+                label = { Text(item.titulo) },
+                colors = NavigationBarItemDefaults.colors(
+                    selectedIconColor = Color.White,
+                    selectedTextColor = VerdePrincipal,
+                    indicatorColor = VerdePrincipal,
+                    unselectedIconColor = TextoGris,
+                    unselectedTextColor = TextoGris
+                )
+            )
+        }
+    }
+
+
+
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/common/ObjetoItem.kt <==
+package com.reeloop.app.presentation.common
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.material3.Text
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import com.reeloop.app.domain.model.Objeto
+import com.reeloop.app.ui.theme.AzulClaro
+import com.reeloop.app.ui.theme.Borde
+import com.reeloop.app.ui.theme.Crema
+import com.reeloop.app.ui.theme.Durazno
+import com.reeloop.app.ui.theme.TextoGris
+import com.reeloop.app.ui.theme.TextoOscuro
+import com.reeloop.app.ui.theme.VerdeClaro
+import com.reeloop.app.util.Fechas
+
+// Cada categoría siempre recibe el mismo color de la paleta
+fun colorCategoria(categoria: String): Color {
+    val paleta = listOf(Crema, VerdeClaro, AzulClaro, Durazno)
+    return paleta[(categoria.hashCode() and Int.MAX_VALUE) % paleta.size]
+}
+
+@Composable
+fun ObjetoItem(
+    objeto: Objeto,
+    modifier: Modifier = Modifier,
+    mostrarFecha: Boolean = false,
+    onClick: () -> Unit = {}
+) {
+    val forma = RoundedCornerShape(20.dp)
+
+    Row(
+        modifier = modifier
+            .fillMaxWidth()
+            .clip(forma)
+            .background(Color.White)
+            .border(1.dp, Borde, forma)
+            .clickable(onClick = onClick)
+            .padding(12.dp),
+        horizontalArrangement = Arrangement.spacedBy(14.dp),
+        verticalAlignment = Alignment.CenterVertically
+    ) {
+        Box(
+            contentAlignment = Alignment.Center,
+            modifier = Modifier
+                .size(72.dp)
+                .background(colorCategoria(objeto.categoria), RoundedCornerShape(16.dp))
+        ) {
+            Text(
+                text = objeto.nombre.take(1).uppercase(),
+                fontSize = 28.sp,
+                fontWeight = FontWeight.Bold,
+                color = TextoOscuro
+            )
+        }
+        Column(verticalArrangement = Arrangement.spacedBy(4.dp)) {
+            Text(objeto.nombre, fontSize = 18.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+            Text("${objeto.categoria} · ${objeto.conservacion}", fontSize = 14.sp, color = TextoGris)
+            Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Etiqueta(objeto.modalidad, destacada = true)
+                Etiqueta(objeto.estado)
+            }
+            if (mostrarFecha) {
+                Text("Publicada ${Fechas.haceCuanto(objeto.fechaPublicado)}", fontSize = 12.sp, color = TextoGris)
+            }
+        }
+    }
+}
+
+==> app/src/main/java/com/reeloop/app/presentation/event/ObjetoEvent.kt <==
+package com.reeloop.app.presentation.event
+sealed class ObjetoEvent {
+    data class OnNombreChange(val valor: String) : ObjetoEvent()
+    data class OnDescripcionChange(val valor: String) : ObjetoEvent()
+    data class OnCategoriaChange(val valor: String) : ObjetoEvent()
+    data class OnConservacionChange(val valor: String) : ObjetoEvent()
+    data class OnPesoChange(val valor: String) : ObjetoEvent()
+    data class OnModalidadChange(val valor: String) : ObjetoEvent()
+    data object OnPublicar : ObjetoEvent()
+    data object OnPublicadoConsumido : ObjetoEvent()
+    data object OnExitoVisto : ObjetoEvent()
+    data class OnBusquedaChange(val valor: String) : ObjetoEvent()
+    data class OnFiltroModalidad(val valor: String) : ObjetoEvent()
+    data class OnSolicitar(val id: Int) : ObjetoEvent()
+    data class OnAceptar(val id: Int) : ObjetoEvent()
+    data class OnRechazar(val id: Int) : ObjetoEvent()
+}
+
+==> gradle/libs.versions.toml <==
+[versions]
+agp = "9.2.1"
+coreKtx = "1.19.1"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+lifecycleRuntimeKtx = "2.11.0"
+activityCompose = "1.13.0"
+kotlin = "2.2.10"
+composeBom = "2026.02.01"
+ksp = "2.3.12"
+room = "2.8.5"
+navigationCompose = "2.8.8"
+ui = "1.12.1"
+foundation = "1.12.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-compose-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended" }
+androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "foundation" }
+
+[plugins]
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
