@@ -19,8 +19,9 @@ fun LoginScreen(onSesionIniciada: () -> Unit , onCrearCuenta:() -> Unit) {
         modifier = Modifier.fillMaxSize().padding(24.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
-    ) {
-        PantallaPendiente("Login", "Módulo B")
+    )
+    {
+        PantallaPendiente("Login", "Módulo B", modifier = Modifier)
         BotonPrincipal("Entrar (prueba)", onSesionIniciada)
         BotonSecundario("Crear cuenta", onCrearCuenta)
     }

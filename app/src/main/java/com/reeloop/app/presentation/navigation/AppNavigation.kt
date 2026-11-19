@@ -21,8 +21,6 @@ import com.reeloop.app.presentation.screens.registro.RegistroScreen
 import com.reeloop.app.presentation.screens.solicitudes.SolicitudesScreen
 
 @Composable
-
-@Composable
 fun AppNavigation(navController: NavHostController, sesion: SesionRepository) {
 
     // Ir a una pestaña de la barra inferior sin apilar pantallas repetidas

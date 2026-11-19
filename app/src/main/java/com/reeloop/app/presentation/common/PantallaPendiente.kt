@@ -14,15 +14,13 @@ import com.reeloop.app.ui.theme.TextoGris
 import com.reeloop.app.ui.theme.TextoOscuro
 
 @Composable
-fun PantallaPendiente(titulo : String , modulo : String){
+fun PantallaPendiente(titulo: String, modulo: String, modifier: Modifier = Modifier.fillMaxSize()) {
     Column(
-    modifier = Modifier.fillMaxSize(),
-    horizontalAlignment = Alignment.CenterHorizontally,
+        modifier = modifier,
+        horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
-    ){
-        Text(titulo , fontSize = 22.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
-        Text( "En construccion · modulo", fontSize = 14.sp, color = TextoGris)
-
+    ) {
+        Text(titulo, fontSize = 22.sp, fontWeight = FontWeight.Bold, color = TextoOscuro)
+        Text("En construcción · $modulo", fontSize = 14.sp, color = TextoGris)
     }
-
 }

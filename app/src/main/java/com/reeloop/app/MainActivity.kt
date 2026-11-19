@@ -34,11 +34,6 @@ class MainActivity : ComponentActivity() {
             ReeloopTheme {
                 val navController = rememberNavController()
 
-                // PRUEBA TEMPORAL: borrar cuando veas el Snackbar
-                LaunchedEffect(Unit) {
-                    delay(1500)
-                    eventBus.lanzarEvento(UiEvent.MostrarSnackbar("Prueba de Snackbar", SnackbarTipo.SUCCESS))
-                }
 
                 AppScaffold(navController, eventBus, sesion) { padding ->
                     Box(modifier = Modifier.fillMaxSize().padding(padding)) {

@@ -19,7 +19,7 @@ fun RegistroScreen(onRegistrado: () -> Unit, onYaTengoCuenta: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
-        PantallaPendiente("Registro", "Módulo B")
+        PantallaPendiente("Registro", "Módulo B", modifier = Modifier)
         BotonPrincipal("Registrarme (prueba)", onRegistrado)
         BotonSecundario("Ya tengo cuenta", onYaTengoCuenta)
     }
