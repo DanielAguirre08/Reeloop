@@ -7,7 +7,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class UIeventBus @Inject constructor(){
+class UiEventBus @Inject constructor(){
     private val _eventos= MutableSharedFlow<UiEvent>()
     val eventos =_eventos.asSharedFlow()
     suspend fun lanzarEvento(evento: UiEvent) {

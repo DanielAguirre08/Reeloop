@@ -12,13 +12,13 @@ import androidx.compose.material3.SnackbarHostState
 import androidx.navigation.NavHostController
 import com.reeloop.app.domain.repository.SesionRepository
 import com.reeloop.app.presentation.event.UiEvent
-import com.reeloop.app.presentation.event.UIeventBus
+import com.reeloop.app.presentation.event.UiEventBus
 import com.reeloop.app.ui.theme.Fondo
 import kotlinx.coroutines.flow.collectLatest
 @Composable
 fun AppScaffold(
     navController: NavHostController,
-    eventBus: UIeventBus,
+    eventBus: UiEventBus,
     sesion: SesionRepository,
     content: @Composable (PaddingValues) -> Unit
 ) {
