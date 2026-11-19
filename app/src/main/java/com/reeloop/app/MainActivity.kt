@@ -4,12 +4,22 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.padding
+import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.AndroidUiMode
+import androidx.navigation.compose.rememberNavController
 import com.reeloop.app.domain.repository.SesionRepository
 import com.reeloop.app.navigation.AppNavigation
+import com.reeloop.app.presentation.common.AppScaffold
+import com.reeloop.app.presentation.common.SnackbarTipo
 import com.reeloop.app.presentation.event.UIeventBus
+import com.reeloop.app.presentation.event.UiEvent
 import com.reeloop.app.ui.theme.ReeloopTheme
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.delay
 import javax.inject.Inject
 
 
@@ -22,8 +32,21 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ReeloopTheme {
-                AppNavigation()
+                val navController = rememberNavController()
+
+                // PRUEBA TEMPORAL: borrar cuando veas el Snackbar
+                LaunchedEffect(Unit) {
+                    delay(1500)
+                    eventBus.lanzarEvento(UiEvent.MostrarSnackbar("Prueba de Snackbar", SnackbarTipo.SUCCESS))
+                }
+
+                AppScaffold(navController, eventBus, sesion) { padding ->
+                    Box(modifier = Modifier.fillMaxSize().padding(padding)) {
+                        AppNavigation(navController, sesion)
+                    }
+                }
             }
         }
+        }
     }
-}
+
